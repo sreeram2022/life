@@ -22,9 +22,9 @@ article:
 
     tableOfContents:
         other: Table of contents
-
+    
     relatedContent:
-        other: Related content
+         other: Related content
 
     lastUpdatedOn:
         other: Last updated on
@@ -65,9 +65,9 @@ search:
     resultTitle:
         other: "#PAGES_COUNT pages (#TIME_SECONDS seconds)"
 
-footer:
-    builtWith:
-        other: Built with {{ .Generator }}
-
-    designedBy:
-        other: Theme {{ .Theme }} designed by {{ .DesignedBy }}
+# footer:
+#     builtWith:
+#         other: Built with {{ .Generator }}
+#
+#     designedBy:
+#         other: Theme {{ .Theme }} designed by {{ .DesignedBy }}

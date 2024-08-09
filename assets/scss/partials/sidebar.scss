@@ -17,7 +17,7 @@
     position: relative;
 
     --sidebar-avatar-size: 100px;
-    --sidebar-element-separation: 20px;
+    --sidebar-element-separation: 15px;
     --emoji-size: 40px;
     --emoji-font-size: 20px;
 
@@ -69,7 +69,7 @@
 
 .right-sidebar {
     width: 100%;
-    display: none;
+    display: flex;
     flex-direction: column;
     gap: var(--widget-separation);
 

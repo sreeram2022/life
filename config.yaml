@@ -10,18 +10,18 @@ params:
     rssFullContent: true
     favicon:
 
-    footer:
-        since:
-        customText:
+    # footer:
+    #     since:
+    #     customText:
 
     dateFormat:
         published: Jan 02, 2006
-        lastUpdated: Jan 02, 2006 15:04 MST
+        lastUpdated: Jan 02, 2006
 
     sidebar:
         compact: false
         emoji:
-        subtitle:
+        subtitle: This blog pretty much sumps up my life. Here, I'll share all of my passions and interests.
         avatar:
             enabled: true
             local: true
@@ -118,8 +118,20 @@ params:
             id:
 
     widgets:
-        homepage: []
-        page: []
+        homepage:
+            - type: search
+            - type: archives
+            - type: categories
+            - type: tag-cloud
+        page:
+            - type: toc
+
+
+
+     
+      
+
+
 
     opengraph:
         twitter:
@@ -140,10 +152,21 @@ params:
         toggle: true
 
         # Available values: auto, light, dark
-        default: auto
+        default: dark
 
     imageProcessing:
         cover:
-            enabled: true
+            enabled: false
         content:
-            enabled: true
+            enabled: false
+
+related:
+    includeNewer: true
+    threshold: 60
+    toLower: false
+    indices:
+        - name: tags
+          weight: 100
+
+        - name: categories
+          weight: 200
