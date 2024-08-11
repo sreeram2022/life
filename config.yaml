@@ -156,9 +156,9 @@ params:
 
     imageProcessing:
         cover:
-            enabled: false
+            enabled: true
         content:
-            enabled: false
+            enabled: true
 
 related:
     includeNewer: true
@@ -170,3 +170,5 @@ related:
 
         - name: categories
           weight: 200
+
+googleAnalytics: G-VCDWXPS9BD
