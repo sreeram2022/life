@@ -1,7 +1,7 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: "Going overboard with Vim"
 description: 
-date: {{ .Date }}
+date: 2024-08-11T18:02:16+05:30
 image: 
 math: 
 license: 
@@ -14,3 +14,6 @@ tags:
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 draft: true
 ---
+
+Vimium
+lynx

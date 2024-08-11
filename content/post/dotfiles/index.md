@@ -2,7 +2,7 @@
 title: Dot files 
 description: These are my dot files
 slug: Dot files
-date: 2024-07-21 00:00:00+0000
+date: 2024-07-28
 image:
 categories:
     - Tech
@@ -12,34 +12,87 @@ tags:
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
-Dot files (or dotfiles) are configuration files on Unix-like systems (such as Linux and macOS) that are often hidden because their filenames begin with a dot (e.g., .bashrc, .vimrc). 
-These files typically control various settings and behaviors of applications and the shell environment. Users often customize dot files to tailor their computing environment to their preferences, such as configuring shell prompts, aliases, key bindings, and other settings specific to applications like Vim, Git, or even desktop environments. 
-They are called dot files because their filenames start with a dot, making them hidden by default in directory listings unless explicitly shown.
+**Dot files** (or dotfiles) are configuration files found on Unix-like systems (such as Linux and macOS). These files control various settings and behaviors of applications and the shell environment. Users frequently customize dot files to tailor their computing environment to their preferences, such as configuring shell prompts, aliases, key bindings, and settings specific to applications like Vim, Git, or desktop environments. The dot in their filenames makes them hidden by default in directory listings unless explicitly shown.
 
-I’ve shared my dot files on github here.
+I’ve shared my dot files on GitHub. You can check them out [here](https://github.com/sreeram2022/dotfiles).
 
-![Image 1](d.jpg)
+![Dot files](d.jpg)
+
+I've covered my Zsh and Vim configuration files in previous posts.
 
 ## Sketchybar
-This bar project aims to create a highly flexible, customizable, fast and powerful status bar replacement for people that like playing with shell scripts.
-The main design principle of this project is that all elements of the bar can be added, removed and freely changed at any point in time. Thus, the configuration of the bar is not static, rather it is possible to adapt the appearance of the bar completely dynamically with the help of a powerful event-driven scripting system at any point in time using the highly configurable basic building blocks SketchyBar offers.
-Configuration file is located in ~/.config/sketchybar, we can modify the bar according to our needs.
+
+**Sketchybar** is a highly flexible, customizable, fast, and powerful status bar replacement designed for those who enjoy working with shell scripts. The main design principle is that all elements of the bar can be added, removed, and changed dynamically. 
+
+The configuration file for Sketchybar is located in `~/.config/sketchybar`. You can modify the bar according to your needs.
 
 ## Yabai
-yabai is a window management utility that is designed to work as an extension to the built-in window manager of macOS. yabai allows you to control your windows, spaces and displays freely using an intuitive command line interface and optionally set user-defined keyboard shortcuts using ↗ skhd and other third-party software.
-skhd is a simple hotkey daemon for macOS that focuses on responsiveness and performance. Hotkeys are defined in a text file through a simple DSL. skhd is able to hotload its config file, meaning that hotkeys can be edited and updated live while skhd is running.
 
-## vscode vim
+**Yabai** is a window management utility designed to extend the built-in window manager of macOS. It allows you to control your windows, spaces, and displays. It's kind of an alternative to i3 in linux. Yabai can be combined with `skhd`, a hotkey daemon for macOS, to set user-defined keyboard shortcuts.
 
-space and v to toggle vim
-space and c to comment and uncomment multiple lines 
-cmd+d to multi cursor to replace
-cmd+shift+. to display different parts of the code
-ctrl+z for zen mode
-cmd+j for terminal
-~ to change the capital or small
-ctrl+a to increment and +x for decerement
-* to search for that word
+**skhd** focuses on responsiveness and performance. Hotkeys are defined in a text file through a simple DSL, and skhd can hotload its configuration file, meaning that hotkeys can be edited and updated live while skhd is running.
+
+## VSCode Vim Integration
+
+It stores all the extensions and settings of the VScode.
+This is a part of my settings.json:
+
+```json
+ "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+        "before": ["j", "k"],
+        "after": ["<Esc>"]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        
+        {"before": ["<leader>", "v"],"commands": [":vsplit"]},
+        {"before": ["<leader>", "s"],"commands": [":split"]},
+
+        {"before": ["<leader>", "h"],"commands": [":bprevious"]},
+        {"before": ["<leader>", "l"],"commands": [":bnext"]},
+      
+        {"before": ["<leader>", "n","e"],
+        "commands": ["workbench.explorer.fileView.focus"] },
+
+        
+          {
+            "before": ["leader", "j"],
+            "commands": ["workbench.action.focusBelowGroup"]
+          },
+          {
+            "before": ["leader", "k"],
+            "commands": ["workbench.action.focusAboveGroup"]
+          },
+          
+          // NICE TO HAVE
+          { "before": ["leader", "w"], "commands": [":w!"] },
+          { "before": ["leader", "q"], "commands": [":q!"] },
+        
+        
 
 
-I back up my dot files periodically. I can download thse from github and create the same development environment on any unix based device.
+    ],
+    "vim.visualModeKeyBindings": [
+        // Stay in visual mode while indenting
+        { "before": ["<"], "commands": ["editor.action.outdentLines"] },
+        { "before": [">"], "commands": ["editor.action.indentLines"] },
+        // Move selected lines while staying in visual mode
+        { "before": ["J"], "commands": ["editor.action.moveLinesDownAction"] },
+        { "before": ["K"], "commands": ["editor.action.moveLinesUpAction"] },
+        // toggle comment selection
+        { "before": ["leader", "c"], "commands": ["editor.action.commentLine"] }
+      ],
+    "vim.leader": "<space>", 
+```
+
+Apart from these, I haven't modified other configuration files. However, you can adjust the settings and behavior of those applications through their respective configuration files.
+
+## Backup and Restore
+
+I back up my dot files periodically. By downloading them from GitHub, I can recreate the same development environment on any Unix-based device. This ensures that my setup remains consistent across different machines.

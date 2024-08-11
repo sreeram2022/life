@@ -2,7 +2,7 @@
 title: Server 
 description: My ubuntu server setup
 slug: server
-date: 2024-06-11 00:00:00+0000
+date: 2024-08-04
 image: 
 categories:
     - Tech
@@ -10,86 +10,68 @@ tags:
     - linux
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
-Ubuntu Server is a version of the Ubuntu operating system specifically designed for use on servers and in data centers. Unlike the desktop version, it does not include a graphical user interface (GUI) by default, making it more lightweight and better suited for server tasks such as web hosting, file serving, email hosting, and database management. Ubuntu Server is known for its stability, security, and ease of use, and it is widely used in enterprise environments.
+# Ubuntu Server on an Old Lenovo Laptop
 
-I’ve installed ubuntu server on my old lenovo laptop.
-## setup
+**Ubuntu Server** is a specialized version of the Ubuntu operating system, tailored for servers and data centers. Unlike its desktop counterpart, it doesn't have a GUI by default, making it lightweight and ideal for server tasks.
 
-Download Ubuntu Server ISO:
-Create a Bootable USB Drive:
-Boot from the USB Drive:
-Install Ubuntu Server: self explanatory 
-Select your language and keyboard layout.
-Follow the on-screen instructions to configure your network settings, select the installation drive, and set up the storage configuration.
-Create a user account and set a password.
-Select the software you want to install (e.g., OpenSSH server for remote access, LAMP server for web hosting).
-Review your choices and start the installation process.
+Recently, I installed Ubuntu Server on my old Lenovo laptop.
 
-Post-Installation Setup:
+## Setup Process
+
+1. **Download Ubuntu Server ISO**: Download the latest Ubuntu Server ISO file from the official Ubuntu website.
+   
+2. **Create a Bootable USB Drive**: I've used Etcher to create a bootable USB drive with the Ubuntu Server ISO.
+   
+3. **Boot from the USB Drive**: Insert the bootable USB into your laptop and boot from it.
+   
+4. **Install Ubuntu Server**: Follow the straightforward installation process:
+   - Choose your language and keyboard layout.
+   - Configure your network settings, select the installation drive, and set up the storage configuration.
+   - Create a user account and set a password.
+   - Select the software you want to install (I've chosen OpenSSH server for remote access).
+   - Review your choices and start the installation process.
+
+## Post-Installation Setup
+
+After installation, update and upgrade the system:
+
+```bash
 sudo apt update
 sudo apt upgrade
-
-
-If I want to access via sftp in terminal the commands:
-
-sftp rama@192.168.0.104 (give your ip address after your server name)
-
-- We can even access through a file manager for ease of access. If we have a
-  linux os it'll be free and easy. If we want to access it from mac we need to
-  pay for third party softwares.
-
-- But using terminal we can still access and perform necessary operations.
-
-## Basic commands
-
 ```
-
-
-put:- for uploading files to server
-
-#To upload a complete folder, first create a folder with the same name then put -r foldername
-
-get:- downloading files from server
-
-bye:- to exit from server.
-
+You can access your server using this command
+```bash
+sftp rama@192.168.0.104 
 ```
+Replace the IP address with your server's IP.
 
-![Image 2](b.png) 
+* Access through File Manager: You can also access the server through a file manager for easier navigation. If you're on a Linux, this will be free and straightforward. On macOS and windows, you need third-party software for this.
+
+* Terminal Access: Alternatively, you can access the server and perform necessary operations directly through the terminal.
+
+
+## Basic SFTP commands
+
+```bash
+put <file>        # Upload files to the server
+put -r <folder>   # Upload an entire folder (first create a folder with the same name on the server)
+get <file>        # Download files from the server
+bye               # Exit from the server
+```
+![sftp](b.png) 
 
 
 ## plex
-Plex is a popular media server and client application that allows you to organize, stream, and access your personal media collections such as movies, TV shows, music, photos, and more. It enables users to centralize their media content on a server and access it from various devices like smartphones, tablets, smart TVs, computers, and streaming devices, both locally and remotely.
+Plex is a popular media server and client application that allows users to centralize their media content on a server and access it from various devices both locally and remotely.
 
 Remote Access:
 * Allows you to access your media library from anywhere with an internet connection.
 * Securely share your media library with friends and family.
 
-![Image 1](p.jpeg) 
+![plex](p.jpeg) 
 
 I can access our plex media server through http://192.168.0.118:32400/web.
 But I couldn’t properly configured plex. So I left it for future todo.
 Anyway I can access my local server using vpn, I’ll probably setup later.
 
 
-
-I’ve installed ubuntu server on my old lenovo laptop.
-The ip address is 192.168.0.118
-In the time of necessity, turn on the laptop by plugging charging cable and always keep it on. Connect ethernet.
-It’ll ask for credentials after booting
-ID: rama passoword: Chanakya#01
-If we want to update the server by “sudo apt update”.
-If we want to access via sftp in terminal the commands:
-sftp://rama@192.168.0.118
-Password: Chanakya#01
-* We can even access through finder or any file manager. (ease of access)
-But with terminal
-put:- for uploading files to server
-To upload a complete folder, first create a folder with the same name then
-put -r foldername
-get:- downloading files from server
-exit to exit from server.
-we can access our plex media server through http://192.168.0.118:32400/web.
-I tried to access again now the ip change to
-sftp rama@192.168.0.104
-so if we can’t access run ifconfig command to know ip address.

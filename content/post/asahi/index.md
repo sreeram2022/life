@@ -2,7 +2,7 @@
 title: Trying asahi linux
 description: My asahi linux experience
 slug:
-date: 2024-07-07 00:00:00+0000
+date: 2024-07-21
 image: 
 categories:
     - Tech

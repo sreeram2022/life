@@ -1,7 +1,7 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: "My productivity system"
 description: 
-date: {{ .Date }}
+date: 2024-08-11T18:02:18+05:30
 image: 
 math: 
 license: 

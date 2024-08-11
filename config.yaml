@@ -8,11 +8,11 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon:
+    favicon: img/avatar.png
 
-    # footer:
-    #     since:
-    #     customText:
+    footer:
+    #since:
+  #customText: feel free to contact me at pvsreeram1@gmail.com
 
     dateFormat:
         published: Jan 02, 2006
@@ -21,7 +21,7 @@ params:
     sidebar:
         compact: false
         emoji:
-        subtitle: This blog pretty much sumps up my life. Here, I'll share all of my passions and interests.
+        subtitle: This blog pretty much sumps up my life. I'll share all of my passions and interests in here.
         avatar:
             enabled: true
             local: true

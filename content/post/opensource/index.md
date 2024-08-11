@@ -2,7 +2,7 @@
 title: Opensource
 description: Opensource apps for android
 slug: Opensource 
-date: 2024-06-04 00:00:00+0000
+date: 2024-07-14
 image: 
 categories:
     - Tech
@@ -11,17 +11,16 @@ tags:
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
-After discovering , F-Droid is an installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform. The client makes it easy to browse, install, and keep track of updates on your device.
-, I became very interested in open-source apps.
+After discovering F-Droid I became very interested in open-source apps.
+F-Droid is an installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform. The client makes it easy to browse, install, and keep track of updates on your device. I've tried Fossify apps which are exactly similar to native google apps.
 
-(Fossify apps) exactly like native google features
+I'll mention some of the apps that I love in this article.
 
 
 ## OpenBoard
 OpenBoard is a 100% FOSS keyboard based on AOSP, with no dependency on Google binaries, and it respects your privacy. You can explore and configure the keyboard settings to your preferences. Rest assured about the privacy aspects since it does not track or log your keystrokes.
 
-## Florisboard
-Florisboard is another open-source keyboard that emphasizes privacy and offers a variety of customization options. You can take advantage of its rich feature set and customize the keyboard layout, themes, and gestures. It stores up to 100 clipboard items but doesn’t have good spell correction support.
+**Florisboard** is another open-source keyboard that emphasizes privacy and offers a variety of customization options. You can take advantage of its rich feature set and customize the keyboard layout, themes, and gestures. It stores up to 100 clipboard items but doesn’t have good spell correction support.
 
 ## FairEmail
 FairEmail is a fully-featured email client that focuses on privacy and usability. It can be overwhelming at first due to its extensive features and customization options. Spend some time getting familiar with its interface and features because it has a learning curve.
@@ -29,13 +28,13 @@ I've also used K9 Mail. In my opinion, if real-time notifications are crucial, s
 
 ## Music Player
 Open-source music players for Android come in various forms with different focuses, such as minimalism and feature-rich interfaces. They offer features like an equalizer, sleep timer, and file organization with a minimal interface.
-I’ve tried with gramophone.
+But I'm using **gramophone** as my default music player now cause of it's vintage and aesthetic   interface.
 
 ## Seal
 Seal allows you to download videos and audio files from platforms such as YouTube. The best feature, in my opinion, is the ability to download all videos in a YouTube playlist with one click.
 
 ## Plain
-PlainApp is an open-source application that allows you to manage your phone through a web browser. Access files, videos, music, contacts, and more from your desktop using a secure, easy-to-use web interface!
+PlainApp is an open-source application that allows you to manage your phone through a web browser. Access files, videos, music, contacts, and more from your desktop using a secure, easy-to-use web interface.
 
 ## Termux
 Termux provides a powerful terminal emulator and Linux environment for Android, allowing you to run a variety of Linux command-line utilities. You can install and configure packages according to your needs and create and run scripts to automate tasks.
@@ -49,7 +48,9 @@ Open Camera is a fully-featured camera app that offers extensive manual controls
 ## personalDNSfilter
 PersonalDNSfilter is a DNS filter with firewall capabilities to block unwanted content and ads at the DNS level. Set up the DNS filters according to your privacy and security needs.
 
-## NewPipe
-NewPipe is a lightweight YouTube frontend that does not rely on Google services and offers features like background playback and download options. You can utilize the background playback and download options for a better YouTube experience. Benefit from improved privacy since it does not use Google’s proprietary APIs.
+![DNSfilter](b.jpeg)
 
-By exploring and customizing these applications, you can make the most of their open-source benefits while tailoring them to your needs.
+## NewPipe
+NewPipe is a lightweight YouTube frontend that does not rely on Google services and offers features like background playback and download options. You can utilize the background playback and download options for a better YouTube experience. Benefit from improved privacy since it does not use Google’s proprietary APIs. There is another alternative called **librepipe** which is also very nice.
+
+By exploring and customizing these applications, you can make the most of their open-source benefits while tailoring them to your needs and ultimately make your android feature-rich.

@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: 2024-03-06
+date: 2024-06-02
 layout: "about"
 slug: "about"
 menu:
@@ -22,7 +22,7 @@ share content that I believe worth sharing.
 Then I started searching on youtube about content writing and encountered the
 book review “Show Your Work”. This book suggests to involve in the creative
 process rather than just the final product. That idea resonated deeply with me —
-document, don’t create.
+**Document, don’t create**.
 
 Another main influence was the 512kb club. This showcases websites that are
 brilliantly crafted within 512kb. These minimalistic websites truly inspired me
