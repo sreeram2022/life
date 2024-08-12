@@ -8,7 +8,7 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon: img/avatar.png
+    favicon: img/favicon.png
     lastmod : 2024-08-12T12:00:00Z
 
     footer:
