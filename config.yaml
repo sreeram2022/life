@@ -1,3 +1,4 @@
+baseURL : https://www.venkatasreeram.com/
 module:
     hugoVersion:
         extended: true
