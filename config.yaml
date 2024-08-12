@@ -8,8 +8,8 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon: img/favicon.png
-    lastmod : 2024-08-12T12:00:00Z
+    favicon: favicon.png
+    lastmod : 2024-08-12
 
     footer:
     #since:
