@@ -9,6 +9,7 @@ params:
     featuredImageField: image
     rssFullContent: true
     favicon: img/avatar.png
+    lastmod : 2024-08-12T12:00:00Z
 
     footer:
     #since:
