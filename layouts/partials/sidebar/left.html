@@ -1,3 +1,4 @@
+{{ if .IsHome }}
 <aside class="sidebar left-sidebar sticky {{ if .Site.Params.sidebar.compact }}compact{{ end }}">
     <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="{{ T `toggleMenu` }}">
         <span class="hamburger-box">
@@ -101,3 +102,4 @@
         </li>
     </ol>
 </aside>
+{{ end }}
