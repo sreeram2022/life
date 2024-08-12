@@ -8,7 +8,7 @@ description = "Card-style Hugo theme designed for bloggers"
 homepage = "https://github.com/CaiJimmy/hugo-theme-stack"
 demosite = "https://demo.stack.jimmycai.com"
 
-tags = ["blog", "responsive", "clean", "light", "dark", "personal"]
+tags = ["blog", "responsive", "clean", "light", "dark", "personal","portfolio"]
 
 features = [
     "disqus",

@@ -21,6 +21,7 @@ params:
     sidebar:
         compact: false
         emoji:
+        title: sreeram venkata
         subtitle: This blog pretty much sumps up my life. I'll share all of my passions and interests in here.
         avatar:
             enabled: true
@@ -52,25 +53,6 @@ params:
             issueTerm: pathname
             label:
 
-        beaudar:
-            repo:
-            issueTerm: pathname
-            label:
-            theme:        
-
-        remark42:
-            host:
-            site:
-            locale:
-
-        vssue:
-            platform:
-            owner:
-            repo:
-            clientId:
-            clientSecret:
-            autoCreateIssue: false
-
         # Waline client configuration see: https://waline.js.org/en/reference/client/props.html
         waline:
             serverURL:
@@ -85,13 +67,6 @@ params:
             locale:
                 admin: Admin
                 placeholder:
-
-        twikoo:
-            envId:
-            region:
-            path:
-            lang:
-
         giscus:
             repo:
             repoID:
@@ -106,16 +81,6 @@ params:
             inputPosition:
             lang:
 
-        gitalk:
-            owner:
-            admin:
-            repo:
-            clientID:
-            clientSecret:
-
-        cusdis:
-            host:
-            id:
 
     widgets:
         homepage:
@@ -125,12 +90,6 @@ params:
             - type: tag-cloud
         page:
             - type: toc
-
-
-
-     
-      
-
 
 
     opengraph:
@@ -172,3 +131,9 @@ related:
           weight: 200
 
 googleAnalytics: G-VCDWXPS9BD
+
+sitemap:
+  changeFreq: ""
+  disable: false
+  filename: sitemap.xml
+  priority: -1
