@@ -9,7 +9,7 @@ categories:
 tags:
     - Mac
     - linux
-weight: 1       # You can add weight to some posts to override the default sorting (date descending)
+weight: 20       # You can add weight to some posts to override the default sorting (date descending)
 ---
 ## My Zsh Setup
 
@@ -26,7 +26,7 @@ Almost all the tutorials pointed towards the same setup:
 5. **Configuring `.zshrc`**: Tailoring the terminal with auto-completions, aliases, and other settings.
 6. **Transparency**: Making the terminal slightly transparent for a more charming look.
 
-![Neofetch](zsh.png)
+![Neofetch](zsh.png "My Zsh")
 
 ### Learning Vim
 

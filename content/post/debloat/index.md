@@ -62,9 +62,9 @@ adb shell wm density reset
 ```
 
 ## images
-![Packages list](a.png)
-![Apps selection](b.png)
-![App details](c.png)
+![Packages list](list.png "Packages list")
+![Apps selection](selection.png "Apps selection")
+![App details](details.png "App details")
 
 
 ## conclusion

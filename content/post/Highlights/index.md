@@ -6,10 +6,11 @@ date: 2024-06-30 00:00:00+0000
 image:
 categories:
     - Tech
+    - Coding
 tags:
     - fun
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
-draft: True
+draft: true
 ---
 
 Recently, I've started to read a self-help book. I've highlighted the parts that
@@ -59,7 +60,7 @@ output_path = os.path.expanduser("~/highlight.txt")
 extract_highlights(pdf_path, output_path)
 ```
 
-![Image 1](hi.png) 
+![Highlights](highlights.png "Highlights of the book") 
 
 ## Code explation
 

@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: 2024-06-02
+date: 
 layout: "about"
 slug: "about"
 menu:
@@ -8,11 +8,13 @@ menu:
         weight: 2
         params: 
             icon: user
+readingtime: false
+toc: false
 ---
 
 
 
-Hey, I’m sreeram. I’ve been wanting to start a blog for years. I’ve made
+Hey, I’m *sreeram*. I’ve been wanting to start a blog for years. I’ve made
 attempts before, but I struggled to find enough content. Then, much later, when
 I landed on my job and had a few months to spare, I felt this strong urge to
 finally create & publish some content. Well, I am too shy for youtube and

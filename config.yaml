@@ -24,7 +24,7 @@ params:
         compact: false
         emoji:
         title: sreeram venkata
-        subtitle: This blog pretty much sumps up my life. I'll share all of my passions and interests in here.
+        subtitle:  Documenting my tech journey
         avatar:
             enabled: true
             local: true
@@ -131,6 +131,10 @@ related:
 
         - name: categories
           weight: 200
+
+
+
+         
 
 googleAnalytics: G-VCDWXPS9BD
 

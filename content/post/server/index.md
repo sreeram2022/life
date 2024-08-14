@@ -58,7 +58,7 @@ put -r <folder>   # Upload an entire folder (first create a folder with the same
 get <file>        # Download files from the server
 bye               # Exit from the server
 ```
-![sftp](b.png) 
+![sftp](sftp.png "sftp") 
 
 
 ## plex
@@ -68,7 +68,7 @@ Remote Access:
 * Allows you to access your media library from anywhere with an internet connection.
 * Securely share your media library with friends and family.
 
-![plex](p.jpeg) 
+![plex](plex.jpeg "plex") 
 
 I can access our plex media server through http://192.168.0.118:32400/web.
 But I couldn’t properly configured plex. So I left it for future todo.

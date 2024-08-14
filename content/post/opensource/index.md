@@ -48,7 +48,7 @@ Open Camera is a fully-featured camera app that offers extensive manual controls
 ## personalDNSfilter
 PersonalDNSfilter is a DNS filter with firewall capabilities to block unwanted content and ads at the DNS level. Set up the DNS filters according to your privacy and security needs.
 
-![DNSfilter](b.jpeg)
+![DNSfilter](DNSfilter.jpg "DNSfilter")
 
 ## NewPipe
 NewPipe is a lightweight YouTube frontend that does not rely on Google services and offers features like background playback and download options. You can utilize the background playback and download options for a better YouTube experience. Benefit from improved privacy since it does not use Google’s proprietary APIs. There is another alternative called **librepipe** which is also very nice.

@@ -16,7 +16,7 @@ weight: 1       # You can add weight to some posts to override the default sorti
 
 I’ve shared my dot files on GitHub. You can check them out [here](https://github.com/sreeram2022/dotfiles).
 
-![Dot files](d.jpg)
+![Dot files](dotfiles.jpg "My dot files folder")
 
 I've covered my Zsh and Vim configuration files in previous posts.
 

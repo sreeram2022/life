@@ -16,9 +16,9 @@ Asahi Linux is a project aimed at developing a Linux distribution for Apple Sili
 ## Installation
 The installation process is very straightforward. You only need to run a single command to install the OS. It will prompt you for the partition size and other necessary OS information.
 
-![Installation](a.png) 
-![System info](b.png) 
-![Os info](c.png) 
+![Installation](Installation.png "Installation") 
+![System info](info.png "System info") 
+![Os info](os.png "Os info") 
 
 ## Here are the advantages I've noticed:
 * The installation process is smooth and simple.
@@ -29,7 +29,7 @@ The installation process is very straightforward. You only need to run a single 
 * i3 is not supported: I tried to use it, but it didn’t boot. However, it is perfectly compatible with Hyperland.
 * System crash during Google Meet screen sharing: The system crashed when I attempted to screen share on Google Meet. Closing and reopening the lid didn’t resolve the issue. I had to hold the power button for an extended period to restart the system.
 
-![Booting error](d.jpg) 
+![Booting error](error.jpg "Booting error") 
 
 * No gesture support with the trackpad: Gestures are not supported with the trackpad, and if you have a Touch Bar, it’s essentially useless.
 
