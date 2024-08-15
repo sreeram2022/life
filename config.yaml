@@ -139,7 +139,7 @@ related:
 googleAnalytics: G-VCDWXPS9BD
 
 sitemap:
-  changeFreq: ""
+  changeFreq: "always"
   disable: false
   filename: sitemap.xml
-  priority: -1
+  priority: 1.0
