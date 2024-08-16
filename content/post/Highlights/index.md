@@ -60,7 +60,7 @@ output_path = os.path.expanduser("~/highlight.txt")
 extract_highlights(pdf_path, output_path)
 ```
 
-![Highlights](highlights.png "Highlights of the book") 
+![Highlights](highlights.webp "Highlights of the book") 
 
 ## Code explation
 

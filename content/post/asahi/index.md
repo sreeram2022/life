@@ -16,9 +16,9 @@ Asahi Linux is a project aimed at developing a Linux distribution for Apple Sili
 ## Installation
 The installation process is very straightforward. You only need to run a single command to install the OS. It will prompt you for the partition size and other necessary OS information.
 
-![Installation](Installation.png "Installation") 
-![System info](info.png "System info") 
-![Os info](os.png "Os info") 
+![Installation](Installation.webp "Installation") 
+![System info](info.webp "System info") 
+![Os info](os.webp "Os info") 
 
 ## Here are the advantages I've noticed:
 * The installation process is smooth and simple.

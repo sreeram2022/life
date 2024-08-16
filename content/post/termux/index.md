@@ -16,7 +16,7 @@ weight: 1       # You can add weight to some posts to override the default sorti
 For those of you who don't know what the Termux is , it's a terminal emulator for Android that allows users to run a Linux commands & even a distribution on their Android devices. It provides a command-line interface and access to a vast collection of Linux packages. In this article I give an overview of Termux, its capabilities, and some essential commands.
 You can also install **Termux: Styling**, a Termux add-on app to customize the terminal font and color theme.
 
-![Termux](termux.jpg "Termux") 
+![Termux](termux.webp "Termux") 
 
 ## Package Management
 

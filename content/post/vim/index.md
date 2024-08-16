@@ -15,7 +15,7 @@ draft: true
 ## Vim
 
 Vim is a highly configurable and powerful text editor that is an improved version of the vi editor, which was originally created for the Unix operating system. Vim stands for "Vi IMproved" and is renowned for its efficiency, speed, and versatility in text editing tasks. It is commonly used by programmers and system administrators due to its extensive feature set and support for plugins.
-![Vim](vim.jpg "Vim") 
+![Vim](vim.webp "Vim") 
 
 I don’t need to list out the commands here. If you want check out https://vim.rtorr.com. 
 

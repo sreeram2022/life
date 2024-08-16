@@ -42,7 +42,7 @@ sessions within a single window. It provides a way to easily switch between diff
 
 I often use Tmux exclusively with the keyboard for efficiency. However, when I’m feeling lazy and slouching on sofa, it’s convenient to have mouse access. Tmux allows toggling mouse support on or off with the command set -g mouse. This lets me scroll, select panes, and interact with the terminal using the mouse.
 
-![Tmux window](tmux.png "Tmux window") 
+![Tmux window](tmux.webp "Tmux window") 
 
 ```bash
 set -s escape-time 0

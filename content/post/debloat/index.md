@@ -62,12 +62,14 @@ adb shell wm density reset
 ```
 
 ## images
-![Packages list](list.png "Packages list")
-![Apps selection](selection.png "Apps selection")
-![App details](details.png "App details")
+![Packages list](list.webp "Packages list")
+![Apps selection](selection.webp "Apps selection")
+![App details](details.webp "App details")
 
 
 ## conclusion
 The application provides a description of each app, explaining why you might want to delete it. I’ve removed almost all the recommended apps to reduce bloatware. It’s important to avoid deleting the apps listed under the "unsafe" and "expert" categories unless you know exactly what you’re doing.
 
 Have fun with the application, and enjoy a cleaner, more efficient Android experience!
+
+

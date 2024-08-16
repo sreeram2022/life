@@ -26,7 +26,7 @@ Almost all the tutorials pointed towards the same setup:
 5. **Configuring `.zshrc`**: Tailoring the terminal with auto-completions, aliases, and other settings.
 6. **Transparency**: Making the terminal slightly transparent for a more charming look.
 
-![Neofetch](zsh.png "My Zsh")
+![Neofetch](zsh.webp "My Zsh")
 
 ### Learning Vim
 
