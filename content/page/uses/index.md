@@ -38,4 +38,4 @@ For browser extensions, I use uBlock Origin to block ads and trackers, Vimium fo
 ### This Website
 * This site is built with **Hugo**, a static site generator that just outputs HTML and CSS instead of the bloated mess that is most of the modern web.
 I've used "hugo-theme-stack" theme. You can refer to my github page for source files.
-* I use **NameCheap** to purchase my domains. Great prices and customer support make this one a no-brainer for me and also I hosted this site on **cloudflare**.
+* I use **NameCheap** to purchase my domains. It offers great prices and customer support is friendly and also I hosted this site on **cloudflare**.

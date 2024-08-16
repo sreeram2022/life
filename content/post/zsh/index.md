@@ -31,12 +31,12 @@ Almost all the tutorials pointed towards the same setup:
 ### Learning Vim
 
 As I got more into making my terminal look cool, I figured I should learn vim to keep things consistent while coding and taking notes. At first, it felt pretty overwhelming, but after sticking with it, I realized that mastering vim actually helped me work way faster without needing to take my hands off the keyboard.
-
-Some basic `vim` config I use include:
+I've only configured these 2 when I started using vim.
 
 - **NERDTree**: Access with `F1`, toggle with `Ctrl+w`, or use the mouse.
 - **Run Python Files**: Use `#!/usr/bin/env python3` at the beginning of a file and press `F2` to run, or use `:!` to execute commands.
 
+After that, I've tried multiple neovim configurations like astrovim, nvchad and lazyvim. I felt lazyvim is better so I made it my default IDE.
 
 ### Terminal Multiplexing with Tmux
 

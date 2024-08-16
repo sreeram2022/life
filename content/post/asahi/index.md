@@ -9,7 +9,7 @@ categories:
 tags:
     - Mac
     - Linux
-weight: 1       # You can add weight to some posts to override the default sorting (date descending)
+weight: -100    # You can add weight to some posts to override the default sorting (date descending)
 ---
 Asahi Linux is a project aimed at developing a Linux distribution for Apple Silicon Macs. The project's primary goal is to ensure that Linux runs smoothly on Apple's ARM-based processors. Intrigued by this initiative, I decided to give it a try.
 
@@ -29,7 +29,7 @@ The installation process is very straightforward. You only need to run a single 
 * i3 is not supported: I tried to use it, but it didn’t boot. However, it is perfectly compatible with Hyperland.
 * System crash during Google Meet screen sharing: The system crashed when I attempted to screen share on Google Meet. Closing and reopening the lid didn’t resolve the issue. I had to hold the power button for an extended period to restart the system.
 
-![Booting error](error.jpg "Booting error") 
+![Booting error](error.webp "Booting error") 
 
 * No gesture support with the trackpad: Gestures are not supported with the trackpad, and if you have a Touch Bar, it’s essentially useless.
 

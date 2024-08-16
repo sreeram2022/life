@@ -35,10 +35,10 @@ article:
 
 notFound:
     title:
-        other: Not Found
+        other: Adventurer, You’ve Reached an Uncharted Territory!
 
     subtitle:
-        other: This page does not exist
+        other: It looks like this page is off the map. Let's explore other paths.
 
 widget:
     archives:
