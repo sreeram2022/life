@@ -9,7 +9,7 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon: favicon.png
+    favicon: favicon.webp
     lastmod : 2024-08-12
 
     footer:
