@@ -1,6 +1,6 @@
-$defaultTagBackgrounds: #8ea885, #df7988, #0177b8, #ffb900, #6b69d6;
-$defaultTagColors: #fff, #fff, #fff, #fff, #fff;
-
+$defaultTagBackgrounds: #8ea885;
+$defaultTagColors: #fff;
+// #ffb900
 /*
 *   Global style
 */
@@ -11,12 +11,12 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
         --main-top-padding: 50px;
     }
 
-    --body-background: #eeeeea;
+    --body-background: #eeeeeac0;
 
-    --accent-color: #34495e;
+    --accent-color: #436b93;
     --accent-color-darker: #2c3e50;
     --accent-color-text: #fff;
-    --body-text-color: #707070;
+    --body-text-color: #2e2e2e;
 
     --tag-border-radius: 4px;
 
@@ -26,9 +26,9 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
     --scrollbar-track: var(--body-background);
 
     &[data-scheme="dark"] {
-        --body-background: #2b2525;
+        --body-background: #000000e6;
         --accent-color: #ecf0f1;
-        --accent-color-darker: #bdc3c7;
+        --accent-color-darker: #ffffff;
         --accent-color-text: #000;
         --body-text-color: rgba(255, 255, 255, 0.7);
         --scrollbar-thumb: hsl(0, 0%, 40%);

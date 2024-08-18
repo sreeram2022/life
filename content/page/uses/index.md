@@ -26,8 +26,8 @@ readingtime: false
 
 * I currently use **kitty** for my terminal. I used mac default terminal at first and had terrible experience. Then I shifted Iterm2 which was okay but it couldn't render neovim's colourschemes properly. So, I've started using kitty. It’s very customizable but still very fast. For my shell, I use myzsh script with a few plugins for niceties like syntax highlighting and auto-complete.
 
-* I use **arc** as my default browser. It is the brave replacement for me. It emphasises on productivity by managing tabs and spaces efficiency. I occasionally use **Tor** for secure and private browsing. It offers anonymity by routing internet traffic through a global network of relays. 
-For browser extensions, I use uBlock Origin to block ads and trackers, Vimium for vim-like keybindings and speedup for controlling speed of all the videos including streaming services.
+* I use **arc** as my default browser. It is the brave replacement for me. It emphasises on productivity by managing tabs and spaces efficiency. It has customizable website features so that I can remove unnecessary parts and change the appearance however I please. occasionally use **Tor** for secure and private browsing. It offers anonymity by routing internet traffic through a global network of relays. If I'm using any apple service I use safari and it has copy text from a video feature which is awesome.
+For browser extensions, I use uBlock Origin to block ads and trackers, Vimium for vim-like keybindings (only usable in firefox) and speedup for controlling speed of all the videos including streaming services.
 
 * I use the terminal file manager **yazi**. It has built in support for previewing images and vim like keybindings. I've tried lf, ranger and nnn. But yazi is simple and more intutive to use.
 

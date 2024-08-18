@@ -1,140 +1,134 @@
-baseURL : https://www.venkatasreeram.com/
+baseURL: https://www.venkatasreeram.com/
 module:
-    hugoVersion:
-        extended: true
-        min: "0.123.0"
+  hugoVersion:
+    extended: true
+    min: "0.123.0"
 
 params:
-    mainSections:
-        - post
-    featuredImageField: image
-    rssFullContent: true
-    favicon: favicon.webp
-    lastmod : 2024-08-12
+  mainSections:
+    - post
+  featuredImageField: image
+  rssFullContent: true
+  favicon: favicon.webp
+  lastmod: 2024-08-12
 
-    footer:
-    #since:
+  footer:
+  #since:
   #customText: feel free to contact me at pvsreeram1@gmail.com
 
-    dateFormat:
-        published: Jan 02, 2006
-        lastUpdated: Jan 02, 2006
+  dateFormat:
+    published: Jan 02, 2006
+    lastUpdated: Jan 02, 2006
 
-    sidebar:
-        compact: false
-        emoji:
-        title: sreeram venkata
-        subtitle:  Documenting my tech journey
-        avatar:
-            enabled: true
-            local: true
-            src: img/avatar.webp
+  sidebar:
+    compact: false
+    emoji:
+    title: sreeram venkata
+    subtitle: Documenting my tech journey
+    avatar:
+      enabled: true
+      local: true
+      src: img/avatar.webp
 
-    article:
-        headingAnchor: false
-        math: false
-        toc: true
-        readingTime: true
-        license:
-            enabled: false
-            default: Licensed under CC BY-NC-SA 4.0
+  article:
+    headingAnchor: false
+    math: false
+    toc: true
+    readingTime: true
+    license:
+      enabled: false
+      default: Licensed under CC BY-NC-SA 4.0
 
-    comments:
-        enabled: false
-        provider: disqus
+  comments:
+    enabled: false
+    provider: disqus
 
-        disqusjs:
-            shortname:
-            apiUrl:
-            apiKey:
-            admin:
-            adminLabel:
+    disqusjs:
+      shortname:
+      apiUrl:
+      apiKey:
+      admin:
+      adminLabel:
 
-        utterances:
-            repo:
-            issueTerm: pathname
-            label:
+    utterances:
+      repo:
+      issueTerm: pathname
+      label:
 
-        # Waline client configuration see: https://waline.js.org/en/reference/client/props.html
-        waline:
-            serverURL:
-            lang:
-            visitor:
-            avatar:
-            emoji:
-                - https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo
-            requiredMeta:
-                - nick
-                - mail
-            locale:
-                admin: Admin
-                placeholder:
-        giscus:
-            repo:
-            repoID:
-            category:
-            categoryID:
-            mapping:
-            strict:
-            lightTheme:
-            darkTheme:
-            reactionsEnabled: 1
-            emitMetadata: 0
-            inputPosition:
-            lang:
+    # Waline client configuration see: https://waline.js.org/en/reference/client/props.html
+    waline:
+      serverURL:
+      lang:
+      visitor:
+      avatar:
+      emoji:
+        - https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo
+      requiredMeta:
+        - nick
+        - mail
+      locale:
+        admin: Admin
+        placeholder:
+    giscus:
+      repo:
+      repoID:
+      category:
+      categoryID:
+      mapping:
+      strict:
+      lightTheme:
+      darkTheme:
+      reactionsEnabled: 1
+      emitMetadata: 0
+      inputPosition:
+      lang:
 
+  widgets:
+    homepage:
+      - type: search
+      - type: archives
+      - type: categories
+      - type: tag-cloud
+    page:
+      - type: toc
 
-    widgets:
-        homepage:
-            - type: search
-            - type: archives
-            - type: categories
-            - type: tag-cloud
-        page:
-            - type: toc
+  opengraph:
+    twitter:
+      # Your Twitter username
+      site:
 
+      # Available values: summary, summary_large_image
+      card: summary_large_image
 
+  defaultImage:
     opengraph:
-        twitter:
-            # Your Twitter username
-            site:
+      enabled: false
+      local: false
+      src:
 
-            # Available values: summary, summary_large_image
-            card: summary_large_image
+  colorScheme:
+    # Display toggle
+    toggle: true
 
-    defaultImage:
-        opengraph:
-            enabled: false
-            local: false
-            src:
+    # Available values: auto, light, dark
+    default: dark
 
-    colorScheme:
-        # Display toggle
-        toggle: true
-
-        # Available values: auto, light, dark
-        default: dark
-
-    imageProcessing:
-        cover:
-            enabled: true
-        content:
-            enabled: true
+  imageProcessing:
+    cover:
+      enabled: true
+    content:
+      enabled: true
 
 related:
-    includeNewer: true
-    threshold: 60
-    toLower: false
-    indices:
-        - name: tags
-          weight: 100
+  includeNewer: true
+  threshold: 60
+  toLower: false
+  indices:
+    - name: tags
+      weight: 100
 
-        - name: categories
-          weight: 200
-
-
-
-         
+    - name: categories
+      weight: 200
 
 googleAnalytics: G-VCDWXPS9BD
 
@@ -143,3 +137,31 @@ sitemap:
   disable: false
   filename: sitemap.xml
   priority: 1.0
+
+menu:
+  main: []
+
+  social:
+    - identifier: github
+      name: GitHub
+      url: https://github.com/sreeram2022
+      params:
+        icon: brand-github
+
+    - identifier: linkedin
+      name: Linkedin
+      url: https://www.linkedin.com/in/venkata-sreeram-484a69194/
+      params:
+        icon: linkedin
+
+    - identifier: Gmail
+      name: Gmail
+      url: mailto:ram@venkatasreeram.com
+      params:
+        icon: gmail
+
+    - identifier: twitter
+      name: Twitter
+      url: https://twitter.com/Ram_ram_Ram_0
+      params:
+        icon: brand-twitter
