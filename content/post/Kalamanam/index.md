@@ -10,28 +10,24 @@ comments: false
 categories:
     - Tradition
 tags:
-    - 
+
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 draft: true
 ---
 
-A daytime of Brahma consists of a duration of 1 Kalpa and night time is also of same duration.
 
-1 Kalpa equals 14 Manvantaras.
-
-1 Manvantara consists of 71 Mahayugas.
-
-1 Mahayuga consists of 4 Yugas called Chaturyuga and they are in the ratio of 4:3:2:1.
 
 Kaliyuga age is 1200 divine years or 432000 human years.
-
-1 divine year is equal to 360 human years.
 
 Satyuga is 4 times Kaliyuga ie 4800 divine years or 1728000 human years.
 
 Tretayuga is 3 times Kaliyuga ie 3600 divine years or 1296000 human years.
 
 Dwaparyuga is 2 times Kaliyuga ie 2400 divine years or 864000 human years.
+
+1 Mahayuga consists of 4 Yugas called Chaturyuga and they are in the ratio of 4:3:2:1.
+
+>  1 divine year is equal to 360 human years.
 
 1 Mahayuga is 12000 divine years or 4,320,000 human years.
 
@@ -43,7 +39,18 @@ So there are 15 Sandhikalas and 14 Manvantaras adding upto 12,000,000 divine yea
 
 1 day of Brahma equals to 2 Kalpas ie 24,000,000 divine years.
 
+A daytime of Brahma consists of a duration of 1 Kalpa and night time is also of same duration.
+
+1 Kalpa equals 14 Manvantaras.
+
+1 Manvantara consists of 71 Mahayugas.
+
+
+
 So Brahma's 100 years lifespan is equal to 864,000,000,000 divine years or 311.04 trillion human years.
+
+
+## where are we ?
 
 Brahma is in his 51st year and first day.
 

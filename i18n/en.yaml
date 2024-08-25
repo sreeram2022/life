@@ -63,7 +63,7 @@ search:
         other: Type something...
 
     resultTitle:
-        other: "#PAGES_COUNT pages (#TIME_SECONDS seconds)"
+        other: "#PAGES_COUNT pages found in (#TIME_SECONDS seconds)"
 
 footer:
     #builtWith:

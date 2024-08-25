@@ -2,10 +2,9 @@
 title: Highlighs
 description: Pdf highlights extractor
 slug: Highlights 
-date: 2024-06-30 00:00:00+0000
+date: 2024-06-30 
 image:
 categories:
-    - Tech
     - Coding
 tags:
     - fun

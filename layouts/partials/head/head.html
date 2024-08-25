@@ -1,32 +1,57 @@
-<meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'>
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    <!-- Charset and viewport settings -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-{{- $description := partialCached "data/description" . .RelPermalink -}}
-<meta name='description' {{ printf "content=%q" $description | safeHTMLAttr }}>
-{{ with .Params.Keywords }}<meta name="keywords" content="{{ delimit . ", " }}">{{ end }}
+    <!-- Author and subject -->
+    <meta name="author" content="Venkatasreeram">
+    <meta name="subject" content="Tech Blog covering Mac, Linux, Configurations, and projects related to python">
 
-{{- $title := partial "data/title" . -}}
-<title>{{ $title }}</title>
+    <!-- Robots and application name -->
+    <meta name="robots" content="index, follow">
+    <meta name="application-name" content="Venkatasreeram's Tech Blog">
 
-<link rel='canonical' href='{{ .Permalink }}'>
+    <!-- Theme color for mobile browsers -->
+    <meta name="theme-color" content="#000000">
 
-{{- partial "head/style.html" . -}}
-{{- partial "head/script.html" . -}}
-{{- partial "head/opengraph/include.html" . -}}
+    <!-- Description and keywords -->
+    {{- $description := partialCached "data/description" . .RelPermalink -}}
+    <meta name="description" {{ printf "content=%q" $description | safeHTMLAttr }}>
+    <meta name="keywords" content="Mac, Linux, configurations, tech, tutorials, open-source, setups, Apple Silicon, Hugo, web development">
 
-{{- range .AlternativeOutputFormats -}}
-    <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
-{{- end -}}
+    <!-- Page title -->
+    {{- $title := partial "data/title" . -}}
+    <title>{{ $title }}</title>
 
-{{ with .Site.Params.favicon }}
-    <link rel="shortcut icon" href="{{ . | relURL }}" type="image/x-icon" />
-{{ else }}
-    <link rel="shortcut icon" href="{{ "/favicon.ico" | relURL }}" type="image/x-icon" />
-{{ end }}
+    <!-- Canonical URL -->
+    <link rel="canonical" href="{{ .Permalink }}">
 
-<!-- {{ with .Site.Params.favicon }}favicon -->
-<!--     <link rel="shortcut icon" href="{{ . | relURL }}" /> -->
-<!-- {{ end }} -->
+    <!-- Styles, scripts, and OpenGraph metadata -->
+    {{- partial "head/style.html" . -}}
+    {{- partial "head/script.html" . -}}
+    {{- partial "head/opengraph/include.html" . -}}
 
-{{- template "_internal/google_analytics.html" . -}}
-{{- partial "head/custom.html" . -}}
+    <!-- Alternative output formats (e.g., RSS feeds) -->
+    {{- range .AlternativeOutputFormats -}}
+        <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+    {{- end -}}
+
+    <!-- Favicon -->
+    {{ with .Site.Params.favicon }}
+        <link rel="shortcut icon" href="{{ . | relURL }}" type="image/x-icon" />
+    {{ else }}
+        <link rel="shortcut icon" href="{{ "/favicon.ico" | relURL }}" type="image/x-icon" />
+    {{ end }}
+
+    <!-- Google Analytics -->
+    {{- template "_internal/google_analytics.html" . -}}
+
+    <!-- Custom head content -->
+    {{- partial "head/custom.html" . -}}
+</head>
+<body>
+    {{ block "main" . }}{{ end }}
+</body>
+</html>

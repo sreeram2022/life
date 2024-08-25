@@ -1,14 +1,13 @@
 ---
 title: "Vim"
 description: "How do I use vim" 
-date: 2024-06-23T22:41:27+05:30
+date: 2024-06-23
 image: 
 categories:
     - Tech
 tags:
     - Mac
     - Linux
-
 weight: 1   
 draft: true
 ---
@@ -34,5 +33,10 @@ LazyVim is a Neovim configuration framework designed to make setting up and mana
 
 Todo pluggin
 
+![Todo](todo.png "todo") 
 
 LazyVim provides a robust starting point for Neovim users who want a well-organized, high-performance setup with the flexibility to customize and extend as needed. It simplifies the process of configuring Neovim and helps users get up and running quickly with a functional development environment.
+```
+```
+```
+
