@@ -13,12 +13,3 @@ draft: true
 ---
 
 
-Keka for files & terminal commands
-Vim for text encryption
-
-Vimcrypt files using -X command or
-vim -x filename
-
-
-
-Cryptomator

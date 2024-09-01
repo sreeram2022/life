@@ -9,7 +9,7 @@ categories:
 tags:
     - Mac
     - Linux
-weight: -100    # You can add weight to some posts to override the default sorting (date descending)
+weight: 1    # You can add weight to some posts to override the default sorting (date descending)
 ---
 Asahi Linux is a project aimed at developing a Linux distribution for Apple Silicon Macs. The project's primary goal is to ensure that Linux runs smoothly on Apple's ARM-based processors. Intrigued by this initiative, I decided to give it a try.
 

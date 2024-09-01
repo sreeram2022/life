@@ -8,13 +8,13 @@ categories:
     - Tech
 tags:
     - linux
-weight: -1 # You can add weight to some posts to override the default sorting (date descending)
+weight: 1 # You can add weight to some posts to override the default sorting (date descending)
 ---
 # Ubuntu Server on an Old Lenovo Laptop
 
 **Ubuntu Server** is a specialized version of the Ubuntu operating system, tailored for servers and data centers. Unlike its desktop counterpart, it doesn't have a GUI by default, making it lightweight and ideal for server tasks.
 
-Recently, I installed Ubuntu Server on my old Lenovo laptop.
+Recently, I installed Ubuntu Server on my old LenovoG575 laptop.
 
 ## Setup Process
 
@@ -70,8 +70,5 @@ Remote Access:
 
 ![plex](plex.webp "plex") 
 
-I can access our plex media server through http://192.168.0.118:32400/web.
-But I couldn’t properly configured plex. So I left it for future todo.
-Anyway I can access my local server using vpn, I’ll probably setup later.
-
+I successfully set up our Plex media server, which is accessible via http://192.168.0.118: 32400/web. However, I encountered some configuration challenges and decided to postpone the final setup. I can still access my local server through a VPN, so I plan to revisit and complete the Plex configuration at a later time.
 

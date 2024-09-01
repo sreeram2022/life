@@ -75,8 +75,8 @@ setw -g mode-keys vi
 Enables Vim-style keybindings in copy mode, making it familiar for those who use Vim.
 
 * 256-Color Support:
-set -g default-terminal "screen-256color"
-set -ga terminal-overrides ",xterm-256color:Tc"
+ set -g default-terminal "screen-256color";
+ set -ga terminal-overrides ",xterm-256color:Tc";
 Ensures that Tmux uses 256-color support, improving the appearance of terminal applications that rely on color.
 
 ## Conclusion

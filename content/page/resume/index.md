@@ -14,11 +14,6 @@ toc: false
 ---
 
 # Sreeram Venkata
-
-[ pvsreeram1@gmail.com ](mailto:x@x.com)|[ linkedin.com/sreeram ](https://www.linkedin.com/in/sreeram-venkata-484a69194/)|[ github.com/sreeram](https://github.com/sreeram2022)
-
-## Education
-
 ### Education
 
 - **Vellore Institute of Technology**

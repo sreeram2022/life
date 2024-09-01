@@ -15,7 +15,7 @@ draft: true
 Recently, I've started to read a self-help book. I've highlighted the parts that
 I know are useful for future references. Then I had an epiphany. If I have
 everything highlighted in one place that would be cool rather than scrolling
-through entire pdf. Google books offers the same feature if we buy books from
+through entire pdf. Google books offers the same feature if we purchase books from
 play store.
 
 ## Code

@@ -53,4 +53,5 @@ PersonalDNSfilter is a DNS filter with firewall capabilities to block unwanted c
 ## NewPipe
 NewPipe is a lightweight YouTube frontend that does not rely on Google services and offers features like background playback and download options. You can utilize the background playback and download options for a better YouTube experience. Benefit from improved privacy since it does not use Google’s proprietary APIs. There is another alternative called **librepipe** which is also very nice.
 
-By exploring and customizing these applications, you can make the most of their open-source benefits while tailoring them to your needs and ultimately make your android feature-rich.
+There are so many other opensource apps that I didn't mention. There are few launchers like mLauncher, pie launcher & there are few arcticons apps. Just explore this opensource world by yourself.
+Tailor them to your own needs and ultimately make your android feature-rich.

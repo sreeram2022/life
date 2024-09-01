@@ -18,7 +18,16 @@ I’ve shared my dot files on GitHub. You can check them out [here](https://gith
 
 ![Dot files](dotfiles.webp "My dot files folder")
 
-I've covered my Zsh and Vim configuration files in previous posts.
+I've used the default macOS Terminal for a year. Later, I switched to iTerm2, installed Oh My Zsh, and set up a Nerd Font. However, when I installed Neovim themes on iTerm2, they looked very weird. So, I shifted to Kitty, a highly customizable terminal emulator.
+
+Relevant Files
+* .zshrc - Zsh Shell Configuration
+* .tmux.conf - Tmux Configuration File
+* .config/yabai/yabairc - Yabai Window Manager Configuration
+* .config/skhd/skhdrc - Skhd Hotkey Daemon Configuration
+* .config/sketchybar - SketchyBar Configuration
+* .vimrc - Vim Editor Configuration
+* Brewfile is to install dependencies using homebrew.
 
 ## Sketchybar
 

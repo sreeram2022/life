@@ -36,11 +36,11 @@ I've only configured these 2 when I started using vim.
 - **NERDTree**: Access with `F1`, toggle with `Ctrl+w`, or use the mouse.
 - **Run Python Files**: Use `#!/usr/bin/env python3` at the beginning of a file and press `F2` to run, or use `:!` to execute commands.
 
-After that, I've tried multiple neovim configurations like astrovim, nvchad and lazyvim. I felt lazyvim is better so I made it my default IDE.
+After that, I've tried multiple neovim configurations like astrovim, nvchad and lazyvim. I felt lazyvim is better so I made it my default IDE. I've written a detailed post about vim (here)[https://venkatasreeram.com/post/vim/]
 
-### Terminal Multiplexing with Tmux
+#### Terminal Multiplexing with Tmux
 
-I also use `tmux` to manage multiple terminal sessions concurrently. It’s a powerful tool for running and switching between several tasks in parallel.
+I also use `tmux` to manage multiple terminal sessions concurrently. It’s a powerful tool for running and switching between several tasks in parallel. (here)[https://venkatasreeram.com/post/tmux/] you can find more about tmux.
 
 ## Aliases
 
@@ -148,3 +148,4 @@ HISTSIZE=10000
 alias gacp='f() { git add . && git commit -m "$1" && git push origin main; }; f'
 
 ```
+I (backup my dotfiles) [https://venkatasreeram.com/post/dotfiles/]especially such as .zshrc and .vimrc periodically. It ensures my configurations are safe and easily restorable, allowing me to maintain a consistent workflow across different environments.

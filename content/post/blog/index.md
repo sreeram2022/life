@@ -1,7 +1,7 @@
 ---
 title: "How I made this blog"
 description: 
-date: 2024-08-18
+date: 2024-08-11
 image: 
 math: 
 license: 
@@ -11,15 +11,18 @@ categories:
     - Tech
 tags:
     - Fun
-weight: -110    # You can add weight to some posts to override the default sorting (date descending)
-draft: false
+weight: 1   # You can add weight to some posts to override the default sorting (date descending)
+draft: true
 ---
 
 ## How I Created My Blog: A Journey from Inspiration to Implementation
-### Inspiration from the 512KB Club and Content Creators
+
+### Inspiration 
+
 The idea for my blog was born out of inspiration from the minimalist web movement, particularly the 512KB Club. The concept of building lightweight, fast, and efficient websites resonated with me. I also drew inspiration from several content creators who emphasized the importance of a clean, focused online presence like chris titus and eric murphy. This sparked the desire to create my own space  where I could share my thoughts, experiences, and technical insights.
 
 ### Starting with Hugo: Exploring Themes
+
 With a clear vision in mind, I chose Hugo, a popular static site generator, as the foundation for my blog. Hugo's speed, flexibility, and extensive library of themes made it the perfect choice for my needs.
 
 I began by exploring various themes available within the Hugo ecosystem. some these have certian problems with inserting images and some has difficulty setting up the search feature. I tried out multiple themes, each offering different aesthetics, functionalities, and customization options.
