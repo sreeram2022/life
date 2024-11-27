@@ -99,7 +99,7 @@ $defaultTagColors: #fff;
 */
 :root {
     --article-font-family: var(--base-font-family);
-    --article-font-size: 1.5rem;
+    --article-font-size: 1.6rem;
 
     @include respond(md) {
         --article-font-size: 1.7rem;
