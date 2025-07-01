@@ -82,10 +82,8 @@ main.main {
     display: flex;
     flex-direction: column;
     gap: var(--section-separation);
-
-    @include respond(md) {
-        padding-top: var(--main-top-padding);
-    }
+    padding-top: var(--main-top-padding);
+    padding-bottom: var(--main-bottom-padding);
 }
 
 .main-container {
@@ -93,7 +91,6 @@ main.main {
     align-items: flex-start;
     padding: 0 15px;
     gap: var(--section-separation);
-    padding-top: var(--main-top-padding);
     
     @include respond(md) {
         padding: 0 20px;

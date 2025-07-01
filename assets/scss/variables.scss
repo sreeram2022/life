@@ -1,20 +1,25 @@
 $defaultTagBackgrounds: #8ea885;
 $defaultTagColors: #fff;
 // #ffb900
+$defaultTagBackgrounds: #8ea885;
+$defaultTagColors: #fff;
+// #ffb900
 /*
 *   Global style
 */
 :root {
-    --main-top-padding: 35px;
+    --main-top-padding: 40px;
+    --main-bottom-padding: 40px;
 
     @include respond(xl) {
         --main-top-padding: 50px;
+        --main-bottom-padding: 50px;
     }
 
     --body-background: #eeeeeac0;
 
-    --accent-color: #436b93;
-    --accent-color-darker: #2c3e50;
+    --accent-color: #00eaff;
+    --accent-color-darker: #0099b3;
     --accent-color-text: #fff;
     --body-text-color: #2e2e2e;
 
@@ -26,46 +31,41 @@ $defaultTagColors: #fff;
     --scrollbar-track: var(--body-background);
 
     &[data-scheme="dark"] {
-        --body-background: #000000e6;
-        --accent-color: #ecf0f1;
-        --accent-color-darker: #ffffff;
+        --body-background: #111;
+        --accent-color: #85c1e9;
+        --accent-color-darker: #aed6f1;
         --accent-color-text: #000;
         --body-text-color: rgba(255, 255, 255, 0.7);
         --scrollbar-thumb: hsl(0, 0%, 40%);
         --scrollbar-track: var(--body-background);
+        --card-background: #1a1a1a;
+        --card-background-selected: #222;
+        --card-text-color-main: #fff;
+        --card-text-color-secondary: #bbb;
+        --card-text-color-tertiary: #888;
     }
 }
 
 /**
 *   Global font family
 */
-// :root {
-//     --sys-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Droid Sans", "Helvetica Neue";
-//     --zh-font-family: "PingFang SC", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei";
-//
-//     --base-font-family: "Consolas", var(--sys-font-family), var(--zh-font-family), sans-serif;
-//     --code-font-family: Menlo, Monaco, Consolas, "Courier New", var(--zh-font-family), monospace;
-// }
-//
-
 :root {
-    --base-font-family: "Roboto", sans-serif; /* Replace "Roboto" with your preferred font */
-    --code-font-family: "Roboto Mono", monospace; /* For code, use a monospaced version */
+    --base-font-family: 'Inter', Arial, sans-serif;
+    --article-font-family: 'Poppins', 'Inter', Arial, sans-serif;
+    --code-font-family: 'Roboto Mono', monospace;
 }
 
 /*
 *   Card style
 */
 :root {
-
-
     --card-background: #fff;
     --card-background-selected: #eaeaea;
 
     --card-text-color-main: #000;
     --card-text-color-secondary: #747474;
     --card-text-color-tertiary: #767676;
-    --card-separator-color: rgba(218, 218, 218, 0.5);
+    --card-separator-color: #e0e0e0;
     --card-border-radius: 10px;
 
     --card-padding: 20px;
@@ -90,7 +90,7 @@ $defaultTagColors: #fff;
         --card-text-color-main: rgba(255, 255, 255, 0.9);
         --card-text-color-secondary: rgba(255, 255, 255, 0.7);
         --card-text-color-tertiary: rgba(255, 255, 255, 0.5);
-        --card-separator-color: rgba(255, 255, 255, 0.12);
+        --card-separator-color: #555555;
     }
 }
 
@@ -98,7 +98,6 @@ $defaultTagColors: #fff;
 *   Article content font settings
 */
 :root {
-    --article-font-family: var(--base-font-family);
     --article-font-size: 1.6rem;
 
     @include respond(md) {
@@ -111,7 +110,6 @@ $defaultTagColors: #fff;
 /*
 *   Article content style
 */
-
 :root {
     --blockquote-border-size: 4px;
     --blockquote-background-color: rgb(248 248 248);
@@ -124,7 +122,6 @@ $defaultTagColors: #fff;
 
     --pre-background-color: #272822;
     --pre-text-color: #f8f8f2;
-
 
     --code-background-color: rgba(0, 0, 0, 0.12);
     --code-text-color: #808080;
@@ -174,3 +171,6 @@ $defaultTagColors: #fff;
     --container-padding: 15px;
     --widget-separation: var(--section-separation);
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;700&display=swap');
+

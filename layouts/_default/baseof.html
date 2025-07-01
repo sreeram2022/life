@@ -15,8 +15,10 @@
             {{- end -}}
         {{- end -}}
         <div class="container main-container flex on-phone--column {{ if $hasWidget }}extended{{ else }}compact{{ end }}">
-            {{- block "left-sidebar" . -}}
-                {{ partial "sidebar/left.html" . }}
+            {{- if not .IsPage -}}
+                {{- block "left-sidebar" . -}}
+                    {{ partial "sidebar/left.html" . }}
+                {{- end -}}
             {{- end -}}
 
             {{- block "right-sidebar" . -}}{{ end }}

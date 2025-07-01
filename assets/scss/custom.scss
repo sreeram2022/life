@@ -1,1 +1,133 @@
 /* Place your custom SCSS in HUGO_SITE_FOLDER/assets/scss/custom.scss */
+
+.post-link {
+    display: block;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: none; /* Ensure no box-shadow on the link itself */
+
+    article {
+        height: 100%;
+    }
+
+    /* Target any potential inner links that might inherit the box-shadow */
+    a {
+        box-shadow: none !important; /* Force remove box-shadow from any nested links */
+    }
+}
+
+@media (min-width: 768px) {
+    .main {
+        margin-left: 20px;
+    }
+}
+
+.archives-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* Hero Section Styles */
+.hero-section {
+    background: rgba(20, 24, 36, 0.92);
+    position: relative;
+    overflow: hidden;
+    padding: 60px 0 40px 0;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+    flex-direction: column;
+    padding: 0 24px;
+}
+
+.hero-content {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #fff;
+    z-index: 1;
+    text-align: center;
+    padding: 32px 24px 24px 24px;
+    border-radius: 18px;
+    background: rgba(30,60,114,0.10);
+    box-shadow: 0 4px 32px 0 rgba(30,60,114,0.10);
+}
+
+.hero-image {
+    flex: 0 0 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.hero-image img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 32px 0 rgba(30,60,114,0.18);
+    background: #fff;
+}
+
+.typewriter {
+    display: inline-block;
+    overflow: hidden;
+    border-right: .15em solid #fff;
+    white-space: nowrap;
+    animation: typing 2.2s steps(22, end), blink-caret .75s step-end 2.2s 1;
+    font-size: 2.8rem;
+    font-family: var(--article-font-family);
+    font-weight: 700;
+    margin-bottom: 18px;
+    max-width: 100%;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 19ch }
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #fff; }
+}
+
+@media (max-width: 900px) {
+    .hero-container {
+        flex-direction: column;
+        gap: 24px;
+    }
+    .hero-content {
+        padding: 24px 8px 16px 8px;
+    }
+}
+
+/* Post UI Refinements for Portfolio Style */
+.article-list {
+    /* Inherits grid from previous changes */
+    .article-details {
+        padding: var(--card-padding);
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .article-title {
+        font-size: 2.2rem;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .article-time {
+        font-size: 1.4rem;
+        color: var(--card-text-color-tertiary);
+    }
+}

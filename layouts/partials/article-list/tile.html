@@ -28,13 +28,15 @@
                     <img src="{{ $image.permalink }}" loading="lazy" data-key="{{ .context.Slug }}" data-hash="{{ $image.permalink }}"/>
                 {{ end }}
             </div>
+            <div class="article-details">
+                <h2 class="article-title">
+                    {{- .context.Title -}}
+                </h2>
+            </div>
+        {{ else }}
+            <div class="article-image article-image-fallback">
+                <span class="article-image-title">{{ .context.Title }}</span>
+            </div>
         {{ end }}
-
-        <div class="article-details">
-
-            <h2 class="article-title">
-                {{- .context.Title -}}
-            </h2>
-        </div>
     </a>
 </article>

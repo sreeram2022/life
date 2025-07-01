@@ -1,4 +1,13 @@
 {{ define "main" }}
+    <section class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="typewriter">Hi, I'm Sreeram Venkata</h1>
+                <p>A passionate software engineer building awesome things. Welcome to my digital space where I share my thoughts, projects, and experiences in the world of technology.</p>
+            </div>
+        </div>
+    </section>
+
     {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
     {{ $notHidden := where .Site.RegularPages "Params.hidden" "!=" true }}
     {{ $filtered := ($pages | intersect $notHidden) }}
@@ -11,9 +20,12 @@
     </section>
 
     {{- partial "pagination.html" . -}}
-    {{- partial "footer/footer" . -}}
+{{ end }}
+
+{{ define "left-sidebar" }}
+    {{ partial "sidebar/left.html" . }}
 {{ end }}
 
 {{ define "right-sidebar" }}
-    {{ partial "sidebar/right.html" (dict "Contevaxt" . "Scope" "homepage") }}
+    {{ partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }}
 {{ end }}
