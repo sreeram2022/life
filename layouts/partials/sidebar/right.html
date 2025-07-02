@@ -3,13 +3,15 @@
 {{- with (index .Context.Site.Params.widgets $scope) -}}
     <aside class="sidebar right-sidebar sticky">
         {{ range $widget := . }}
-            {{ if templates.Exists (printf "partials/widget/%s.html" .type) }}
-                <!-- Ensure that the `params` is not nil -->
-                {{- $params := default dict .params -}}
-
-                {{ partial (printf "widget/%s.html" .type) (dict "Context" $context "Params" $params) }}
+            {{ if and (eq $widget.type "search") (eq $context.Params.search false) }}
+                {{/* Skip search widget if search is disabled for this page */}}
             {{ else }}
-                {{ warnf "Widget %s not found" .type }}
+                {{ if templates.Exists (printf "partials/widget/%s.html" $widget.type) }}
+                    {{- $params := default dict $widget.params -}}
+                    {{ partial (printf "widget/%s.html" $widget.type) (dict "Context" $context "Params" $params) }}
+                {{ else }}
+                    {{ warnf "Widget %s not found" $widget.type }}
+                {{ end }}
             {{ end }}
         {{ end }}
     </aside>

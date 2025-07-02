@@ -11,6 +11,7 @@ menu:
 draft: false
 readingtime: false
 toc: false
+search: false
 ---
 
 # Sreeram Venkata

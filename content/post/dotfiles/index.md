@@ -3,7 +3,7 @@ title: Dot files
 description: These are my dot files
 slug: Dot files
 date: 2024-07-28
-image:
+image: 
 categories:
     - Tech
 tags:

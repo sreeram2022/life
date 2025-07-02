@@ -11,6 +11,7 @@ menu:
 draft: false
 toc: false
 readingtime: false
+search: false
 ---
 
 

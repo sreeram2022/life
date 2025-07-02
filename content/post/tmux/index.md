@@ -15,7 +15,16 @@ weight: 1       # You can add weight to some posts to override the default sorti
 
 
 Tmux is a terminal multiplexer that allows us to manage multiple terminal
-sessions within a single window. It provides a way to easily switch between different sessions, split windows into panes, and maintain persistent sessions that can be reattached even after disconnecting.all of the commands have prefix Ctrl+b by default. But,I changed ctrl+b to shift+b as it is more accessible for me.
+sessions within a single window. It provides a way to easily switch between different sessions, split windows into panes, and maintain persistent sessions that can be reattached even after disconnecting. All of the commands have prefix Ctrl+b by default. But, I changed ctrl+b to shift+b as it is more accessible for me.
+
+**How tmux saved my workflow:**
+There was a time when my SSH session dropped in the middle of a long-running script. Thanks to tmux, I just reattached to my session and picked up right where I left off—no lost work!
+
+**Favorite tmux trick:**
+I love using split panes to monitor logs and edit code side by side. It feels like having a superpower in the terminal.
+
+**Tip:**
+Customize your tmux config to match your workflow. Even small tweaks (like changing the prefix key) can make a big difference in productivity.
 
 ## Essential Tmux Commands
 
@@ -27,7 +36,7 @@ sessions within a single window. It provides a way to easily switch between diff
 > - ` tmux kill-session` - to close a session
 
 > - ` shift+b %`  for vertical panes
-> - ` shift+b “`  for horizontal panes
+> - ` shift+b "`  for horizontal panes
 > - ` shift+b x`  to close pane
 > - ` shift+b Arrow Key (Left, Right, Up, Down)`  — Move between panes.
 
@@ -40,7 +49,7 @@ sessions within a single window. It provides a way to easily switch between diff
 
 ## My tmux config
 
-I often use Tmux exclusively with the keyboard for efficiency. However, when I’m feeling lazy and slouching on sofa, it’s convenient to have mouse access. Tmux allows toggling mouse support on or off with the command set -g mouse. This lets me scroll, select panes, and interact with the terminal using the mouse.
+I often use Tmux exclusively with the keyboard for efficiency. However, when I'm feeling lazy and slouching on sofa, it's convenient to have mouse access. Tmux allows toggling mouse support on or off with the command set -g mouse. This lets me scroll, select panes, and interact with the terminal using the mouse.
 
 ![Tmux window](tmux.webp "Tmux window") 
 

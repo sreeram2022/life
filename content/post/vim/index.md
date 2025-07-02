@@ -15,6 +15,15 @@ draft: false
 
 Vim is a powerful text editor renowned for its efficiency, speed, and customizability. When I first encountered Vim, it felt overwhelming due to the vast array of commands. Even exiting the editor required entering `:wq` or `:q!`, which seemed cumbersome for simple text editing. I questioned the need to learn all these shortcuts just to edit a text file. However, after watching a few videos by [ThePrimeagen](https://www.youtube.com/c/ThePrimeagen), I was inspired to dive into Vim. It wasn't easy though, I had an on-and-off relationship with it. But after persevering, the effort paid off.
 
+**My first "aha!" moment:**
+I remember the first time I used Vim's visual mode to select and move blocks of code—it felt like magic! Suddenly, editing text was faster and more fun than ever before.
+
+**Favorite plugin:**
+I can't live without NERDTree. Navigating files with just a few keystrokes makes me feel like a true power user.
+
+**Beginner tip:**
+Don't try to learn everything at once. Start with basic navigation and editing, then gradually add new commands and plugins as you get comfortable.
+
 ![Vim](vim.webp "Vim")
 
 ### Modes
@@ -98,7 +107,7 @@ nnoremap <F2> :call RunPythonFile()<CR>
 nmap <leader>v :vsp<CR>
 
 ```
-I created a keybinding jk to exit from Insert mode. Typically, you'd press Esc, but reaching for Esc every time can be a strain. Normally, you'd use :!python3 filename.py to run a Python file, but by adding #!/usr/bin/env python3 at the beginning of the Python file, you can simply press F2 to run it. To access NERDTree, press F1; you can toggle between buffers using Ctrl+w, or even use the mouse. Apart from these minor tweaks, I haven’t customized much because I found a better alternative to plain Vim.
+I created a keybinding jk to exit from Insert mode. Typically, you'd press Esc, but reaching for Esc every time can be a strain. Normally, you'd use :!python3 filename.py to run a Python file, but by adding #!/usr/bin/env python3 at the beginning of the Python file, you can simply press F2 to run it. To access NERDTree, press F1; you can toggle between buffers using Ctrl+w, or even use the mouse. Apart from these minor tweaks, I haven't customized much because I found a better alternative to plain Vim.
 
 ## lazyvim
 ![dashboard](dashboard.webp "My nvim")  

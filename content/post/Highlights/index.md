@@ -9,7 +9,7 @@ categories:
 tags:
     - fun
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
-draft: true
+draft: false
 ---
 
 Recently, I've started to read a self-help book. I've highlighted the parts that

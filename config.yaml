@@ -90,6 +90,7 @@ params:
       - type: categories
       - type: tag-cloud
     page:
+      - type: search
       - type: toc
 
   opengraph:
