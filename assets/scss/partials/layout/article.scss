@@ -115,7 +115,7 @@
             li a:first-of-type::before {
                 counter-increment: item;
                 content: counters(item, ".") ". ";
-                font-weight: bold;
+                font-weight: 400;
                 margin-right: 5px;
             }
         }
@@ -141,7 +141,7 @@
         }
         li.active-class > a {
             border-left: var(--heading-border-size) solid var(--accent-color);
-            font-weight: bold;
+            font-weight: 400;
         }
 
         ul li.active-class > a {
@@ -223,6 +223,7 @@
         padding-inline-start: calc(var(--card-padding) - var(--heading-border-size));
         border-inline-start: var(--heading-border-size) solid var(--accent-color);
         position: relative;
+        font-weight: 400;
 
         a.header-anchor {
             transition: opacity 0.3s ease;

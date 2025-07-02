@@ -92,6 +92,29 @@ let Stack = {
         });
 
         new StackColorScheme(document.getElementById('dark-mode-toggle'));
+
+        /**
+         * Scroll reveal animations for section titles and article cards
+         */
+        function scrollReveal() {
+            const fadeEls = document.querySelectorAll('.scroll-fade-in');
+            const slideEls = document.querySelectorAll('.scroll-slide-in');
+            const reveal = (els, visibleClass = 'visible') => {
+                els.forEach(el => {
+                    if (el.getBoundingClientRect().top < window.innerHeight * 0.92) {
+                        el.classList.add(visibleClass);
+                    }
+                });
+            };
+            const onScroll = () => {
+                reveal(fadeEls);
+                reveal(slideEls);
+            };
+            window.addEventListener('scroll', onScroll);
+            window.addEventListener('resize', onScroll);
+            onScroll();
+        }
+        scrollReveal();
     }
 }
 

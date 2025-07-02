@@ -1,7 +1,7 @@
 {{ define "main" }}
 
     <header>
-        <h3 class="section-title">
+        <h3 class="section-title scroll-fade-in">
             {{ if eq .Parent (.GetPage "/") }}
                 {{ T "list.section" }}
             {{ else }}
@@ -12,7 +12,7 @@
         <div class="section-card">
             <div class="section-details">
                 <h3 class="section-count">{{ T "list.page" (len .Pages) }}</h3>
-                <h1 class="section-term">{{ .Title }}</h1>
+                <h1 class="section-term scroll-fade-in">{{ .Title }}</h1>
                 {{ with .Params.description }}
                     <h2 class="section-description">{{ . }}</h2>
                 {{ end }}
@@ -72,7 +72,9 @@
     {{ $paginator := .Paginate $pages }}
     <section class="article-list--compact">
         {{ range $paginator.Pages }}
-            {{ partial "article-list/compact" . }}
+            <div class="scroll-slide-in">
+                {{ partial "article-list/compact" . }}
+            </div>
         {{ end }}
     </section>
 

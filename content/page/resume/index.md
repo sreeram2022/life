@@ -14,84 +14,98 @@ toc: false
 ---
 
 # Sreeram Venkata
-### Education
 
-- **Vellore Institute of Technology**
+---
 
-  - Bachelor of Technology in Electronics & Communications
-  - CGPA: 8.56
-  - July 2019 - May 2023
+## 🧠 Profile Summary
 
-- **Narayana IIT JEE Academy**
+Tech-savvy professional working in the Supply Chain domain with a strong foundation in AI and Machine Learning. Experienced in building end-to-end data projects, developing deep learning solutions, and applying automation in real-world use cases. Passionate about solving complex problems through data and AI.
 
-  - Class 12
-  - CGPA: 9.94
-  - Jun 2017 – May 2019
+---
 
-- **Sri Sarasvathi Sisumandir**
-  - Class 10
-  - CGPA: 9.8
-  - May 2017
+## 🎓 Education
 
-## Projects
+- Vellore Institute of Technology (VIT)
+  - Bachelor of Technology in Electronics & Communication Engineering
+  - CGPA: 8.56 • July 2019 – May 2023
+- Narayana IIT JEE Academy — Class 12
+  - CGPA: 9.94 • Jun 2017 – May 2019
+- Sri Sarasvathi Sisumandir — Class 10
+  - CGPA: 9.8 • May 2017
 
-### Brain Tumor Detection using Deep Learning
+---
 
-`End-to-end deep learning, flask`
+## 💼 Experience
 
->- Imported MRI images of brain dataset from kaggle and performed data
-  visualization, data augmentation and preprocessing
->- Used various deep learning architectures such as CNN, MobileNet-v2 and VGG-16
-  on preprocessed dataset
->- Compared these architectures to find out which algorithm can efficiently and
-  accurately predict brain tumour and deployed project using flask
+- Cognizant Technology Solutions
+  - Programmer Analyst Trainee • Dec 2023 – Present
+  - Trained in MySQL, PL/SQL, and Kinaxis platform
+  - Earned Contributor and Author certifications on Kinaxis
+  - Working in Supply Chain Planning Tower to solve real-world SCM challenges
 
-### Food demand forecasting using machine learning
+---
 
-`exploratory data analysis, ML`
->- Performed data Preprocessing on train and test data
->- Used XGBoost and LightGBM algorithms to predict the number of orders for each
-  city and each recipe
->- Compared these two algorithm results with the real values to find out which
-  algorithm can efficiently and accurately forecast the number of orders
+## 💡 Projects
 
-### Gesture controlled vehicle using openCV
+- **Brain Tumor Detection using Deep Learning**
+  - Python, Flask, CNN, MobileNetV2, VGG16
+  - Preprocessed MRI brain images and applied data augmentation
+  - Trained CNN models and compared performance on classification task
+  - Deployed the most accurate model via a Flask web app
 
-`openCV, Mediapipe`
+- **Food Demand Forecasting**
+  - XGBoost, LightGBM, Pandas, EDA
+  - Cleaned and processed demand datasets by city and recipe
+  - Built regression models to forecast order volumes
+  - Evaluated predictions and model accuracy against test data
 
->- Used openCV library to detect both hand and head gestures via webcam
->- Used pre-trained models in Mediapipe framework for performing hand and face
-  gesture tracking
->- When system’s camera detects gesture, it’ll process the image and verifies
-  with predetermined positions for left, right, back and acceleration.
-  Accordingly the system will display the output
+- **Gesture-Controlled Vehicle**
+  - OpenCV, Mediapipe
+  - Built a vision-based system using webcam input for gesture recognition
+  - Used Mediapipe's pre-trained models to detect hand and head positions
+  - Mapped gestures to movement commands: left, right, back, accelerate
 
-## Experience
+---
 
-### programmer analyst trainee (Dec 2023 – Present)
+## 🏆 Achievements
 
-`cognizant technology solutions`
+- Publication: *A refined ResNet18 architecture for Diabetic Retinopathy classification*, Elsevier, Oct 2023
+- Azure Fundamentals Certification
+- Convolutional Neural Networks – DeepLearning.AI
+- Member of IEEE Robotics & Automation Club, VIT
 
-> - Trained on mysql, PLSQL
-> - Earned contributor, author certifications on kinaxis platform
-> - Working as a trainee in Supply chain Management domain in planning tower
+---
 
-## Achievements
-> -  Publication:
-  [“A refined ResNet18 architecture with Swish activation function for Diabetic Retinopathy classification ](https://www.sciencedirect.com/science/article/abs/pii/S1746809423010637)”,
-  Biomedical Signal Processing and Control — Journal — Elsevier —Volume 88 —
-  Part A · Oct 26, 2023
-> - [Azure fundamentals certification](https://www.credly.com/badges/0c53b5d9-61fb-4640-acd4-d237d38ea92a)
-> - [Convolutional Neural Networks authorized by DeepLearning.AI](https://coursera.org/share/323487dbfa397ab0320d79a7dd2a86b2)
-> - IEEE robotics and automation club member in VIT
+## 🛠️ Technical Skills
 
-## Technical Skills
+- **Languages:**
+  - Python
+  - C
+  - SQL
+  - JavaScript
+  - HTML/CSS
+  - R
+- **Technologies:**
+  - Machine Learning
+  - Deep Learning
+  - Data Analytics
+- **Tools:**
+  - Git
+  - Docker
+  - Linux
+  - Flask
+  - Tableau
+  - Hugo
+  - Vim
+- **Libraries:**
+  - NumPy
+  - Pandas
+  - Scikit-learn
+  - OpenCV
+  - Keras
+  - Matplotlib
+  - Seaborn
 
-> - **Languages** : Python, C, SQL, JavaScript, HTML/CSS, R
+---
 
-> - **Technologies**: Data analytics, Machine learning, Deep learning
-
-> - **Developer** Tools: Git, Docker, Vim, Linux, Flask, Hugo, Tableau
-
-> - **Libraries**: Numpy, Pandas, Matplotlib, Seaborn, Scikit-learn, OpenCv, Keras
-
+Explore more at [venkatasreeram.com](https://venkatasreeram.com).

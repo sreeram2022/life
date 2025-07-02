@@ -60,6 +60,7 @@
     border-radius: 18px;
     background: rgba(30,60,114,0.10);
     box-shadow: 0 4px 32px 0 rgba(30,60,114,0.10);
+    font-weight: 400;
 }
 
 .hero-image {
@@ -86,7 +87,7 @@
     animation: typing 2.2s steps(22, end), blink-caret .75s step-end 2.2s 1;
     font-size: 2.8rem;
     font-family: var(--article-font-family);
-    font-weight: 700;
+    font-weight: 400;
     margin-bottom: 18px;
     max-width: 100%;
 }
@@ -130,4 +131,69 @@
         font-size: 1.4rem;
         color: var(--card-text-color-tertiary);
     }
+}
+
+.footer-feedback-invite {
+    margin: 2.5rem 0 0 0;
+    padding: 1.2rem 1.5rem;
+    background: var(--body-background, #f9f9f9);
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.25rem;
+    color: var(--accent-color, #2d7ff9);
+    font-weight: 500;
+    box-shadow: 0 2px 8px 0 rgba(30,60,114,0.04);
+}
+
+.article-excerpt {
+    margin: 0.5em 0 0 0;
+    font-size: 1.08em;
+    color: var(--card-text-color-secondary, #666);
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+// Subtle hover transitions for article cards and links
+.article-list--compact article, .article-list--tile article, .article-list--default article {
+    transition: box-shadow 0.3s cubic-bezier(0.4,0,0.2,1), transform 0.3s cubic-bezier(0.4,0,0.2,1);
+}
+
+.article-list--compact article:hover, .article-list--tile article:hover, .article-list--default article:hover {
+    box-shadow: 0 4px 24px 0 rgba(30,60,114,0.10);
+    transform: translateY(-4px) scale(1.02);
+    z-index: 2;
+}
+
+.article-title a, .post-link {
+    transition: color 0.2s cubic-bezier(0.4,0,0.2,1);
+}
+
+.article-title a:hover, .post-link:hover {
+    color: var(--accent-color, #2d7ff9);
+}
+
+// Scroll reveal base classes
+.scroll-fade-in {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.7s cubic-bezier(0.4,0,0.2,1), transform 0.7s cubic-bezier(0.4,0,0.2,1);
+}
+.scroll-fade-in.visible {
+    opacity: 1;
+    transform: none;
+}
+
+.scroll-slide-in {
+    opacity: 0;
+    transform: translateX(-32px);
+    transition: opacity 0.7s cubic-bezier(0.4,0,0.2,1), transform 0.7s cubic-bezier(0.4,0,0.2,1);
+}
+.scroll-slide-in.visible {
+    opacity: 1;
+    transform: none;
+}
+
+// Remove bold from all strong and b tags in content
+strong, b {
+    font-weight: 400 !important;
 }

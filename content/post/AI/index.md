@@ -1,6 +1,6 @@
 ---
 title: "Using LLM Models"
-description: 
+description:  How I use local llm models
 date: 2024-10-01
 image: 
 math: 

@@ -32,6 +32,9 @@
                 <h2 class="article-title">
                     {{- .context.Title -}}
                 </h2>
+                {{ with .context.Params.description }}
+                <p class="article-excerpt">{{ . | truncate 100 }}</p>
+                {{ end }}
             </div>
         {{ else }}
             <div class="article-image article-image-fallback">
