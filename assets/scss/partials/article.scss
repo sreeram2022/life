@@ -20,7 +20,7 @@
     }
 
     article {
-        background: #f9fafb;
+        background: var(--card-background);
         border-radius: var(--card-border-radius);
         box-shadow: 0 4px 24px 0 rgba(0,0,0,0.08), 0 1.5px 4px 0 rgba(0,0,0,0.04);
         border: none;
@@ -172,17 +172,18 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 40px 32px;
-    max-width: 1100px;
+    max-width: 900px;
     margin: 0 auto 40px auto;
+    padding-right: 32px;
     justify-items: stretch;
     @include respond(md) {
         grid-template-columns: 1fr 1fr;
     }
     @include respond(xl) {
         grid-template-columns: 1fr 1fr;
-        max-width: 1100px;
+        max-width: 900px;
     }
-    background: linear-gradient(135deg, #f8fafc 0%, #e9f0f7 100%);
+    background: linear-gradient(135deg, #f6f7f9 0%, #e3ecf7 100%);
     border-radius: 16px;
     box-shadow: 0 2px 24px 0 rgba(80, 120, 200, 0.06);
     padding: 32px 0;
@@ -198,10 +199,10 @@
         box-shadow: 0 2px 12px 0 rgba(80, 120, 200, 0.04);
         background: var(--card-background);
         transition: box-shadow 0.3s, border-color 0.3s, transform 0.2s;
-        min-height: 400px;
-        height: 400px;
-        width: 49vw;
-        max-width: 540px;
+        min-height: 320px;
+        height: 320px;
+        width: 42vw;
+        max-width: 400px;
         display: flex;
         flex-direction: column;
         &:hover {
@@ -324,7 +325,7 @@
 
 // Add a visually appealing background for the article-list section in light mode
 :root:not([data-scheme="dark"]) .article-list {
-    background: linear-gradient(135deg, #f8fafc 0%, #e9f0f7 100%);
+    background: linear-gradient(135deg, #f6f7f9 0%, #e3ecf7 100%);
     position: relative;
     border-radius: 18px;
     box-shadow: 0 2px 24px 0 rgba(80, 120, 200, 0.06);
@@ -338,7 +339,7 @@
     top: 0; left: 0; right: 0; bottom: 0;
     pointer-events: none;
     opacity: 0.12;
-    background-image: repeating-linear-gradient(135deg, #b3c6e0 0 2px, transparent 2px 40px);
+    background-image: repeating-linear-gradient(135deg, #b7d0e8 0 2px, transparent 2px 40px);
     border-radius: 18px;
     z-index: 0;
 }
@@ -375,4 +376,10 @@
         background: var(--accent-color);
         color: #000;
     }
+}
+
+.search-result--list {
+    @extend .article-list--compact;
+    padding-right: 32px;
+    max-width: 900px;
 }

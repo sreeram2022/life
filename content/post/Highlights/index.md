@@ -1,17 +1,15 @@
 ---
-title: Highlighs
-description: Pdf highlights extractor
-slug: Highlights 
-date: 2024-06-30 
+title: Highlighs 
+description: Pdf highlights extractor 
+slug: Extracting highlights
+date: 2024-08-12
 image:
 categories:
     - Coding
 tags:
     - fun
-weight: 1       # You can add weight to some posts to override the default sorting (date descending)
-draft: false
+weight: 1
 ---
-
 Recently, I've started to read a self-help book. I've highlighted the parts that
 I know are useful for future references. Then I had an epiphany. If I have
 everything highlighted in one place that would be cool rather than scrolling

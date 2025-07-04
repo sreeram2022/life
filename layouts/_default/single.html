@@ -44,5 +44,12 @@
 {{ define "left-sidebar" }}{{ end }}
 
 {{ define "right-sidebar" }}
-    {{ if .Scratch.Get "hasWidget" }}{{ partial "sidebar/right.html" (dict "Context" . "Scope" "page") }}{{ end}}
+    {{/* Hide right sidebar for About, Resume, and Uses pages only */}}
+    {{ if and (not (or
+        (eq .Title "About") (eq .File.Path "content/page/about/index.md") (eq .Slug "about")
+        (eq .Title "Resume") (eq .File.Path "content/page/resume/index.md") (eq .Slug "resume")
+        (eq .Title "uses") (eq .File.Path "content/page/uses/index.md") (eq .Slug "uses")
+    )) (.Scratch.Get "hasWidget") }}
+        {{ partial "sidebar/right.html" (dict "Context" . "Scope" "page") }}
+    {{ end }}
 {{ end }}

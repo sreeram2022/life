@@ -16,12 +16,12 @@ $defaultTagColors: #fff;
         --main-bottom-padding: 50px;
     }
 
-    --body-background: #eeeeeac0;
+    --body-background: #f6f7f9;
 
-    --accent-color: #00eaff;
-    --accent-color-darker: #0099b3;
+    --accent-color: #5bbcff;
+    --accent-color-darker: #3996c6;
     --accent-color-text: #fff;
-    --body-text-color: #2e2e2e;
+    --body-text-color: #23272f;
 
     --tag-border-radius: 4px;
 
@@ -51,7 +51,7 @@ $defaultTagColors: #fff;
 */
 :root {
     --base-font-family: 'Inter', Arial, sans-serif;
-    --article-font-family: 'Poppins', 'Inter', Arial, sans-serif;
+    --article-font-family: 'Inter', Arial, sans-serif;
     --code-font-family: 'Roboto Mono', monospace;
 }
 
