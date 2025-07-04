@@ -6,10 +6,9 @@ date: 2024-08-12
 image:
 categories:
     - Tech
+    - AI
 tags:
-    - edge
-    - ai
-    - iot
+    - Android
 weight: 1
 ---
 

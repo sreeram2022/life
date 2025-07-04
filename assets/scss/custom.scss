@@ -37,6 +37,11 @@
     position: relative;
     overflow: hidden;
     padding: 60px 0 40px 0;
+    transition: transform 0.4s cubic-bezier(0.4,0,0.2,1), box-shadow 0.4s cubic-bezier(0.4,0,0.2,1);
+}
+.hero-section:hover {
+    transform: scale(1.025);
+    box-shadow: 0 8px 40px 0 rgba(30,60,114,0.18);
 }
 
 .hero-container {
@@ -284,4 +289,132 @@ body[data-page-path="content/page/resume/index.md"] {
     color: #030101 !important;
     border-radius: 18px;
     box-shadow: 0 4px 32px 0 rgba(30,60,114,0.10);
+}
+
+/* Homepage Mobile Search Bar Styles */
+@media (max-width: 700px) {
+  .homepage-mobile-search {
+    display: block;
+    margin: 18px auto 24px auto;
+    max-width: 98vw;
+    padding: 0 2vw;
+  }
+  .homepage-mobile-search .search-form {
+    background: var(--card-background, #fff);
+    border-radius: 16px;
+    box-shadow: 0 2px 16px 0 rgba(30,60,114,0.10);
+    padding: 18px 12px 10px 12px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 480px;
+    position: relative;
+  }
+  .homepage-mobile-search .search-form input {
+    font-size: 1.2rem;
+    padding: 18px 12px 12px 12px;
+    border-radius: 10px;
+    background: var(--body-background, #f9f9f9);
+    box-shadow: none;
+    border: 1.5px solid var(--accent-color, #5bbcff);
+    color: var(--card-text-color-main);
+  }
+  .homepage-mobile-search .search-form label {
+    font-size: 1.1rem;
+    top: 8px;
+    left: 14px;
+    color: var(--accent-color, #5bbcff);
+  }
+  .homepage-mobile-search .search-form button {
+    width: 44px;
+    height: 44px;
+    right: 0;
+    top: 0;
+    background: var(--accent-color, #5bbcff);
+    border-radius: 50%;
+    color: #fff;
+    box-shadow: 0 2px 8px 0 rgba(30,60,114,0.10);
+    transition: background 0.2s;
+  }
+  .homepage-mobile-search .search-form button svg {
+    color: #fff;
+    width: 22px;
+    height: 22px;
+  }
+}
+
+/* Hide mobile search bar on desktop */
+@media (min-width: 701px) {
+  .homepage-mobile-search {
+    display: none !important;
+  }
+}
+
+/* Hero section tweaks for mobile */
+@media (max-width: 700px) {
+  .hero-section {
+    padding: 32px 0 18px 0;
+    border-radius: 0 0 18px 18px;
+  }
+  .hero-content {
+    padding: 18px 6px 10px 6px;
+    font-size: 1.1rem;
+  }
+  .typewriter {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+}
+
+.about-cta {
+  margin: 2.5rem auto 0 auto;
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  background: linear-gradient(135deg, #5bbcff 0%, #b7d0e8 100%);
+  border-radius: 18px;
+  box-shadow: 0 4px 32px 0 rgba(30,60,114,0.10);
+  text-align: center;
+  max-width: 480px;
+  color: #030101;
+  font-family: var(--article-font-family);
+  position: relative;
+  overflow: hidden;
+}
+
+.about-cta-title {
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.01em;
+}
+
+.about-cta-sub {
+  font-size: 1.25rem;
+  margin-bottom: 1.2rem;
+  font-weight: 400;
+}
+
+.about-cta-you {
+  color: #fff;
+  background: #5bbcff;
+  border-radius: 8px;
+  padding: 0 0.4em;
+  font-weight: 600;
+}
+
+.about-cta-btn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.7em 2em;
+  background: #fff;
+  color: #5bbcff;
+  border-radius: 999px;
+  font-size: 1.15rem;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 2px 8px 0 rgba(30,60,114,0.10);
+  transition: background 0.18s, color 0.18s, box-shadow 0.18s;
+}
+.about-cta-btn:hover, .about-cta-btn:focus {
+  background: #5bbcff;
+  color: #fff;
+  box-shadow: 0 4px 16px 0 rgba(30,60,114,0.14);
 }
