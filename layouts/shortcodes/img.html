@@ -11,7 +11,7 @@
     {{ end }}
 {{ end }}
 {{ if $img }}
-    <img src="{{ $img.RelPermalink }}" alt="{{ $alt }}" class="{{ $class }}" loading="lazy" />
+    <img src="{{ $img.RelPermalink }}" alt="{{ $alt }}" class="{{ $class }} gallery-image" loading="lazy" />
 {{ else }}
-    <img src="{{ $src | absURL }}" alt="{{ $alt }}" class="{{ $class }}" loading="lazy" />
+    <img src="{{ $src | absURL }}" alt="{{ $alt }}" class="{{ $class }} gallery-image" loading="lazy" />
 {{ end }}

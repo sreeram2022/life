@@ -21,6 +21,8 @@ class StackGallery {
     constructor(container: HTMLElement, galleryUID = 1) {
         if (window.PhotoSwipe == undefined || window.PhotoSwipeUI_Default == undefined) {
             console.error("PhotoSwipe lib not loaded.");
+            console.log("window.PhotoSwipe: ", window.PhotoSwipe);
+            console.log("window.PhotoSwipeUI_Default: ", window.PhotoSwipeUI_Default);
             return;
         }
 

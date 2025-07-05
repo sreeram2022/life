@@ -418,3 +418,60 @@ body[data-page-path="content/page/resume/index.md"] {
   color: #fff;
   box-shadow: 0 4px 16px 0 rgba(30,60,114,0.14);
 }
+
+/* --- PhotoSwipe Customizations: Prominent Close Button & Arrows --- */
+.pswp__button--close {
+  display: block;
+  opacity: 1;
+  top: 18px;
+  right: 18px;
+  width: 48px;
+  height: 48px;
+  background-size: 32px 32px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0,0,0,0.45);
+  border-radius: 50%;
+  z-index: 10010;
+  transition: background 0.2s;
+}
+.pswp__button--close:hover {
+  background-color: rgba(0,0,0,0.6);
+}
+
+.pswp__button--arrow--left,
+.pswp__button--arrow--right {
+  display: block;
+  opacity: 1;
+  width: 48px;
+  height: 48px;
+  background-size: 32px 32px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0,0,0,0.45);
+  border-radius: 50%;
+  z-index: 10010;
+  transition: background 0.2s;
+}
+.pswp__button--arrow--left:hover,
+.pswp__button--arrow--right:hover {
+  background-color: rgba(0,0,0,0.6);
+}
+
+@media (max-width: 600px) {
+  .pswp__button--close,
+  .pswp__button--arrow--left,
+  .pswp__button--arrow--right {
+    width: 38px;
+    height: 38px;
+    background-size: 22px 22px;
+    top: 8px;
+    right: 8px;
+  }
+}
+
+:root[data-scheme="dark"] .pswp__button--close,
+:root[data-scheme="dark"] .pswp__button--arrow--left,
+:root[data-scheme="dark"] .pswp__button--arrow--right {
+  background-color: rgba(255,255,255,0.12);
+}

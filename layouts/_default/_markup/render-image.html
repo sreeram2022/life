@@ -18,7 +18,7 @@
   <a href="{{ $src }}">
     <picture>
       <source srcset="{{ $webp.RelPermalink }}" type="image/webp">
-      <img src="{{ $fallback.RelPermalink }}" alt="{{ .Text }}" loading="lazy" decoding="async" width="{{ $src.Width }}" height="{{ $src.Height }}" />
+      <img src="{{ $fallback.RelPermalink }}" alt="{{ .Text }}" loading="lazy" decoding="async" width="{{ $src.Width }}" height="{{ $src.Height }}" class="gallery-image" />
     </picture>
   </a>
   {{ with .Title }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
