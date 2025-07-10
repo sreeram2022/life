@@ -16,12 +16,12 @@ $defaultTagColors: #fff;
         --main-bottom-padding: 50px;
     }
 
-    --body-background: #f6f7f9;
-
-    --accent-color: #5bbcff;
-    --accent-color-darker: #3996c6;
+    --body-background: #f8fafc;
+    --accent-color: #3b82f6; /* More vibrant blue */
+    --accent-color-darker: #2563eb;
+    --accent-color-lighter: #93c5fd;
     --accent-color-text: #fff;
-    --body-text-color: #23272f;
+    --body-text-color: #1e293b;
 
     --tag-border-radius: 4px;
 
@@ -31,11 +31,12 @@ $defaultTagColors: #fff;
     --scrollbar-track: var(--body-background);
 
     &[data-scheme="dark"] {
-        --body-background: #111;
-        --accent-color: #85c1e9;
-        --accent-color-darker: #aed6f1;
+        --body-background: #0f172a;
+        --accent-color: #60a5fa;
+        --accent-color-darker: #93c5fd;
+        --accent-color-lighter: #3b82f6;
         --accent-color-text: #000;
-        --body-text-color: rgba(255, 255, 255, 0.7);
+        --body-text-color: rgba(255, 255, 255, 0.85);
         --scrollbar-thumb: hsl(0, 0%, 40%);
         --scrollbar-track: var(--body-background);
         --card-background: #1a1a1a;
