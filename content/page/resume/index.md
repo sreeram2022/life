@@ -81,7 +81,6 @@ Tech-savvy professional working in the Supply Chain domain with a strong foundat
 
 - **Languages:**
   - Python
-  - C
   - SQL
   - JavaScript
   - HTML/CSS
@@ -98,6 +97,7 @@ Tech-savvy professional working in the Supply Chain domain with a strong foundat
   - Tableau
   - Hugo
   - Vim
+  - n8n
 - **Libraries:**
   - NumPy
   - Pandas
