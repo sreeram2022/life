@@ -1,3 +1,8 @@
 {{ $sass := resources.Get "scss/style.scss" }}
-{{ $style := $sass | css.Sass | minify | resources.Fingerprint "sha256" }}
+{{ $style := "" }}
+{{ if ge hugo.Version "0.128.0" }}
+  {{ $style = $sass | css.Sass | minify | resources.Fingerprint "sha256" }}
+{{ else }}
+  {{ $style = $sass | resources.ToCSS | minify | resources.Fingerprint "sha256" }}
+{{ end }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
