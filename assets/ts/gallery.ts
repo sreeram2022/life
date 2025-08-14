@@ -167,7 +167,14 @@ class StackGallery {
                     rect = thumbnail.getBoundingClientRect();
 
                 return { x: rect.left, y: rect.top + pageYScroll, w: rect.width };
-            }
+            },
+            shareEl: false,
+            fullscreenEl: true,
+            zoomEl: true,
+            counterEl: true,
+            arrowEl: true,
+            closeOnScroll: true,
+            history: false
         });
 
         ps.init();

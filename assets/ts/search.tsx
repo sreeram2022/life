@@ -290,11 +290,6 @@ class Search {
                     <h2 class="article-title" dangerouslySetInnerHTML={{ __html: item.title }}></h2>
                     <section class="article-preview" dangerouslySetInnerHTML={{ __html: item.preview }}></section>
                 </div>
-                {item.image &&
-                    <div class="article-image">
-                        <img src={item.image} loading="lazy" />
-                    </div>
-                }
             </a>
         </article>;
     }

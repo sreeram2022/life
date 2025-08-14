@@ -121,7 +121,7 @@
         .hamburger-inner,
         .hamburger-inner::before,
         .hamburger-inner::after {
-            background-color: var(--accent-color);
+            background-color: var(--body-text-color);
         }
     }
 }
@@ -196,7 +196,7 @@
 
         &.current {
             a {
-                color: var(--accent-color);
+                color: var(--body-text-color);
                 font-weight: bold;
             }
         }

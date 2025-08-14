@@ -1,3 +1,25 @@
+/* Ensure taxonomy/search article lists align cleanly */
+.article-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 32px 24px;
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+    @include respond(md) { grid-template-columns: 1fr 1fr; }
+    @include respond(xl) { max-width: 1100px; }
+
+    > * { width: 100%; }
+}
+
+.article-list .article-image img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.article-list .article-details {
+    padding: var(--card-padding);
+}
 .section-card {
     border-radius: var(--card-border-radius);
     background-color: var(--card-background);

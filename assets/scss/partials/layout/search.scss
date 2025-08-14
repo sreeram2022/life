@@ -31,21 +31,21 @@
 
     input {
         padding: 40px 20px 20px;
-        border-radius: var(--card-border-radius);
+        border-radius: 14px;
         background-color: var(--card-background);
-        box-shadow: var(--shadow-l1);
         color: var(--card-text-color-main);
         width: 100%;
-        border: 0;
+        border: var(--border-width) solid var(--card-separator-color);
         -webkit-appearance: none;
 
-        transition: box-shadow 0.3s ease;
+        transition: border-color 0.2s ease, box-shadow 0.2s ease;
 
         font-size: 1.8rem;
 
         &:focus {
             outline: 0;
-            box-shadow: var(--shadow-l2);
+            border-color: var(--card-text-color-secondary);
+            box-shadow: none;
         }
     }
 
@@ -56,22 +56,19 @@
         height: 100%;
         width: var(--button-size);
         cursor: pointer;
-        background-color: transparent;
-        border: 0;
+        background-color: var(--card-background);
+        border: var(--border-width) solid var(--card-separator-color);
 
         padding: 0 10px;
 
         &:focus {
             outline: 0;
 
-            svg {
-                stroke-width: 2;
-                color: var(--accent-color);
-            }
+            svg { stroke-width: 2; color: var(--body-text-color); }
         }
 
         svg {
-            color: var(--card-text-color-secondary);
+            color: var(--body-text-color);
             stroke-width: 1.33;
             transition: all 0.3s ease;
             width: 20px;
@@ -80,3 +77,33 @@
     }
 
 }
+
+/* Search result layout aesthetics */
+.search-result {
+    margin-top: 18px;
+}
+
+.search-result--title {
+    margin: 12px 0 18px 0;
+    color: var(--card-text-color-secondary);
+}
+
+.search-result--list.article-list--compact {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+    max-width: 1100px;
+}
+
+.search-result--list.article-list--compact article {
+    border: var(--border-width) solid var(--card-separator-color);
+    border-radius: 12px;
+    box-shadow: none;
+    background: var(--card-background);
+}
+.search-result--list.article-list--compact .article-details { padding: 16px 18px; }
+.search-result--list.article-list--compact .article-title { margin: 0 0 6px 0; font-weight: 500; }
+.search-result--list.article-list--compact .article-preview { font-size: 1.5rem; color: var(--card-text-color-secondary); }
+
+.search-result--list .article-title { font-size: 2.2rem; }
+.search-result--list .article-excerpt { color: var(--card-text-color-secondary); }

@@ -140,7 +140,7 @@
             }
         }
         li.active-class > a {
-            border-left: var(--heading-border-size) solid var(--accent-color);
+            border-left: var(--heading-border-size) solid var(--body-text-color);
             font-weight: 400;
         }
 
@@ -221,7 +221,7 @@
     h6 {
         margin-inline-start: calc((var(--card-padding)) * -1);
         padding-inline-start: calc(var(--card-padding) - var(--heading-border-size));
-        border-inline-start: var(--heading-border-size) solid var(--accent-color);
+        border-inline-start: var(--heading-border-size) solid var(--body-text-color);
         position: relative;
         font-weight: 400;
 
@@ -232,7 +232,7 @@
             left: 0;
             width: var(--card-padding);
             text-align: center;
-            color: var(--accent-color);
+            color: var(--body-text-color);
 
             &:before {
                 content: "#";
