@@ -2,7 +2,7 @@
 title: "Yazi"
 description: My new file manager for mac
 date: 2024-08-21
-image: yazi.webp
+image:
 math: 
 license: 
 hidden: false
